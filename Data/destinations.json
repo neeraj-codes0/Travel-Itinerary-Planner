@@ -1,0 +1,264 @@
+{
+  "destinations": [
+    {
+      "name": "Agra",
+      "country": "India",
+      "activities": ["Taj Mahal", "Agra Fort", "Fatehpur Sikri"],
+      "weather": "Hot",
+      "map": "https://link-to-agra-map.com"
+    },
+    {
+      "name": "Jaipur",
+      "country": "India",
+      "activities": ["Amber Fort", "City Palace", "Jantar Mantar"],
+      "weather": "Hot",
+      "map": "https://link-to-jaipur-map.com"
+    },
+    {
+      "name": "Kerala",
+      "country": "India",
+      "activities": ["Backwaters Tour", "Kathakali Show", "Tea Plantation Visit"],
+      "weather": "Hot",
+      "map": "https://link-to-kerala-map.com"
+    },
+    {
+      "name": "Ladakh",
+      "country": "India",
+      "activities": ["Pangong Lake", "Nubra Valley", "Leh Palace"],
+      "weather": "Cold",
+      "map": "https://link-to-ladakh-map.com"
+    },
+    {
+      "name": "Andaman-nicobar",
+      "country": "India",
+      "activities": ["Snorkeling", "Scuba Diving", "Elephant Beach"],
+      "weather": "Hot",
+      "map": "https://link-to-andaman-map.com"
+    },
+    {
+      "name": "Shimla",
+      "country": "India",
+      "activities": ["Mall Road", "Jakhoo Temple", "Kufri"],
+      "weather": "Cold",
+      "map": "https://link-to-shimla-map.com"
+    },
+    {
+      "name": "Manali",
+      "country": "India",
+      "activities": ["Solang Valley", "Rohtang Pass", "Hadimba Temple"],
+      "weather": "Cold",
+      "map": "https://link-to-manali-map.com"
+    }, 
+    {
+      "name": "uttarakhand",
+      "country": "India",
+      "activities": ["Nainital", "Jim Corbett National Park", "Rishikesh"],
+      "weather": "Cold",
+      "map": "https://link-to-uttarakhand-map.com"
+    },
+    {
+      "name": "delhi",
+      "country": "India",
+      "activities": ["Red Fort", "Qutub Minar", "India Gate"],
+      "weather": "Hot",
+      "map": "https://link-to-delhi-map.com"
+    },
+    {
+      "name": "Goa",
+      "country": "India",
+      "activities": ["Beach Party", "Dudhsagar Waterfall", "Basilica of Bom Jesus"],
+      "weather": "Hot",
+      "map": "https://link-to-goa-map.com"
+    },
+    {
+      "name": "Kashmir",
+      "country":"India",
+      "activities": ["Dal Lake", "Shalimar Bagh", "Gulmarg"],
+      "weather": "Cold",
+      "map": "https://link-to-kashmir-map.com"
+    },
+    {
+      "name": "Kolkata",
+      "country": "India",
+      "activities": ["Victoria Memorial", "Howrah Bridge", "Indian Museum"],
+      "weather": "Hot",
+      "map": "https://link-to-kolkata-map.com"
+    },
+    {
+      "name": "Mumbai",
+      "country": "India",
+      "activities": ["Gateway of India", "Marine Drive", "Elephanta Caves"],
+      "weather": "Hot",
+      "map": "https://link-to-mumbai-map.com"
+    },
+    {
+      "name": "Bangalore",
+      "country": "India",
+      "activities": ["Lalbagh Botanical Garden", "Bangalore Palace", "Cubbon Park"],
+      "weather": "Hot",
+      "map": "https://link-to-bangalore-map.com"
+    },
+    {
+      "name": "Chennai",
+      "country": "India",
+      "activities": ["Marina Beach", "Kapaleeshwarar Temple", "Fort St. George"],
+      "weather": "Hot",
+      "map": "https://link-to-chennai-map.com"
+    },
+    {
+      "name": "Hyderabad",
+      "country": "India",
+      "activities": ["Charminar", "Golconda Fort", "Ramoji Film City"],
+      "weather": "Hot",
+      "map": "https://link-to-hyderabad-map.com"
+    },
+    {
+      "name": "Kochi",
+      "country": "India",
+      "activities": ["Fort Kochi", "Mattancherry Palace"],
+      "weather": "Hot",
+      "map": "https://link-to-kochi-map.com"
+    },
+    {
+      "name": "Dubai",
+      "country": "UAE",
+      "activities": ["Burj Khalifa", "Desert Safari", "Dubai Mall"],
+      "weather": "Hot",
+      "map": "https://link-to-dubai-map.com"
+    },
+    {
+      "name": "Cairo",
+      "country": "Egypt",
+      "activities": ["Pyramids of Giza", "Khan el-Khalili", "Nile River Cruise"],
+      "weather": "Hot",
+      "map": "https://link-to-cairo-map.com"
+    },
+    {
+      "name": "Istanbul",
+      "country": "Turkey",
+      "activities": ["Hagia Sophia", "Blue Mosque", "Grand Bazaar"],
+      "weather": "Mild",
+      "map": "https://link-to-istanbul-map.com"
+    },
+    {
+      "name": "Barcelona",
+      "country": "Spain",
+      "activities": ["Sagrada Familia", "Park Guell", "La Rambla"],
+      "weather": "Mild",
+      "map": "https://link-to-barcelona-map.com"
+    },
+    {
+      "name": "Venice",
+      "country": "Italy",
+      "activities": ["Gondola Ride", "St. Mark's Basilica", "Rialto Bridge"],
+      "weather": "Cold",
+      "map": "https://link-to-venice-map.com"
+    },
+    {
+      "name": "Vienna",
+      "country": "Austria",
+      "activities": ["Schonbrunn Palace", "St. Stephen's Cathedral", "Belvedere Palace"],
+      "weather": "Cold",
+      "map": "https://link-to-vienna-map.com"
+    },
+    {
+      "name": "Prague",
+      "country": "Czech Republic",
+      "activities": ["Charles Bridge", "Prague Castle", "Old Town Square"],
+      "weather": "Cold",
+      "map": "https://link-to-prague-map.com"
+    },
+    {
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "activities": ["Van Gogh Museum", "Anne Frank House", "Rijksmuseum"],
+      "weather": "Cold",
+      "map": "https://link-to-amsterdam-map.com"
+    },
+    {
+      "name": "Berlin",
+      "country": "Germany",
+      "activities": ["Brandenburg Gate", "Reichstag Building", "Berlin Wall"],
+      "weather": "Cold",
+      "map": "https://link-to-berlin-map.com"
+    },
+    {
+        "name": "London",
+        "country": "England",
+        "activities": ["Big Ben", "London Eye", "Buckingham Palace"],
+        "weather": "Cold",
+        "map": "https://link-to-london-map.com"
+      },
+    {
+      "name": "Paris",
+      "country": "France",
+      "activities": ["Eiffel Tower Visit", "Louvre Museum", "Seine River Cruise"],
+      "weather": "Cold",
+      "map": "https://link-to-paris-map.com"
+    },
+    {
+      "name": "Tokyo",
+      "country": "Japan",
+      "activities": ["Mount Fuji Tour", "Shibuya Crossing", "Sushi Tasting"],
+      "weather": "Mild",
+      "map": "https://link-to-tokyo-map.com"
+    },
+    {
+        "name": "Sydney",
+        "country": "Australia",
+        "activities": ["Sydney Opera House", "Bondi Beach", "Blue Mountains Tour"],
+        "weather": "Hot",
+        "map": "https://link-to-sydney-map.com"
+      },
+      {
+          "name": "Rome", 
+          "country": "Italy",
+          "activities": ["Colosseum", "Vatican City", "Trevi Fountain"],
+          "weather": "Mild",
+          "map": "https://link-to-rome-map.com"   
+      },
+    {
+      "name": "New York",
+      "country": "USA",
+      "activities": ["Statue of Liberty", "Central Park", "Broadway Show"],
+      "weather": "Hot",
+      "map": "https://link-to-new-york-map.com"
+    },
+    {
+        "name": "Los Angeles",
+        "country": "USA",
+        "activities": ["Hollywood Walk of Fame", "Santa Monica Pier", "Universal Studios"],
+        "weather": "Hot",
+        "map": "https://link-to-los-angeles-map.com"
+    },
+    {
+      "name": "Thailand",
+      "country": "Thailand",
+      "activities": ["Grand Palace", "Wat Arun", "Chatuchak Weekend Market"],
+      "weather": "Hot",
+      "map": "https://link-to-thailand-map.com"
+    },
+    {
+      "name": "Maldives",
+      "country": "Maldives",
+      "activities": ["Snorkeling", "Scuba Diving", "Relaxing on the Beach"],
+      "weather": "Hot",
+      "map": "https://link-to-maldives-map.com"
+    },
+    {
+      "name": "Malaysia",
+      "country": "Malaysia",
+      "activities": ["Petronas Towers", "Batu Caves", "Langkawi Island"],
+      "weather": "Hot",
+      "map": "https://link-to-malaysia-map.com"
+    },
+    {
+        "name": "Singapore",
+        "country": "Singapore",
+        "activities": ["Gardens by the Bay", "Marina Bay Sands", "Chinatown"],
+        "weather": "Hot",
+        "map": "https://link-to-singapore-map.com"
+    }
+  ]
+}
+  

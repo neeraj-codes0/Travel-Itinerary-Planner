@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Itinerary Planner</title>
+  <link rel="stylesheet" href="assets/css/">
+</head>
+
+<body>
+  <script src="assets/js/"></script>
+  <header>
+    <h1>Travel Itinerary Planner</h1>
+    <nav>
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Itinerary</a>
+      <a href="">Packing Checklist</a>
+      <a href="">Contact and Feedback</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="india-abroad">
+      <h2>India OR Abroad</h2>
+      <input type="radio" id="india" name="india-abroad" value="india">
+      <label for="india">India</label>
+      <input type="radio" id="abroad" name="india-abroad" value="abroad">
+      <label for="abroad">Abroad</label>
+      <input type="radio" id="both" name="india-abroad" value="both">
+      <label for="both">Both</label>
+    </section>
+    
+    <section id="travel-dates">
+      <h2>Travel Dates</h2>
+      <label for="start-date">Start Date:</label>
+      <input type="date" id="start-date" name="start-date">
+      <label for="end-date">End Date:</label>
+      <input type="date" id="end-date" name="end-date">
+      <p id="number-of-days">Number of days: <input type="number" id="number-of-days" name="number-of-days" value="0"></p>
+    </section>
+
+    <section id="destination-selector">
+      <h2>Select Destination</h2>
+
+      <select id="destination-dropdown">
+        <option value="none">Select Destination</option>
+        <option value="agra">Agra</option>
+        <option value="jaipur">Jaipur</option>
+        <option value="kerala">Kerala</option>
+        <option value="ladakh">Ladakh</option>
+        <option value="andaman-nicobar">Andaman & Nicobar</option>
+        <option value="shimla">Shimla</option>
+        <option value="manali">Manali</option>
+        <option value="uttrakhand">Uttrakhand</option>
+        <option value="delhi">Delhi</option>
+        <option value="goa">Goa</option>
+        <option value="kashmir">Kashmir</option>
+        <option value="kolkata">Kolkata</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="bangalore">Bangalore</option>
+        <option value="chennai">Chennai</option>
+        <option value="hyderabad">Hyderabad</option>
+        <option value="kochi">Kochi</option>
+        <option value="dubai">Dubai</option>
+        <option value="cairo">Cairo</option>
+        <option value="istanbul">Istanbul</option>
+        <option value="barcelona">Barcelona</option>
+        <option value="venice">Venice</option>
+        <option value="vienna">Vienna</option>
+        <option value="prague">Prague</option>
+        <option value="amsterdam">Amsterdam</option>
+        <option value="berlin">Berlin</option>
+        <option value="london">London</option>
+        <option value="paris">Paris</option>
+        <option value="tokyo">Tokyo</option>
+        <option value="sydney">Sydney</option>
+        <option value="rome">Rome</option>
+        <option value="new-york">New York</option>
+        <option value="los-angeles">Los Angeles</option>
+        <option value="thailand">Thailand</option>
+        <option value="maldives">Maldives</option>
+        <option value="malaysia">Malaysia</option>
+        <option value="singapore">Singapore</option>
+      </select>
+      <button onclick="generateitineraty()">Generate Itinerary</button>
+    </section>
+
+    <section id="itinerary">
+      <h2>Your Itinerary</h2>
+      <div id="itinerary-content">
+        
+      </div>
+    </section>
+
+    <section id="destination-details">
+      <h2>Destination Details</h2>
+      <div id="destination-details-content">
+
+      </div>
+    </section>
+
+    <section id="packing-checklist">
+      <h2>Your Packing Checklist</h2>
+      <ul id="packing-checklist-content">
+        <li>Passport</li>
+        <li>Tickets</li>
+        <li>Travel Insurance</li>
+        <li>Medicines</li>
+        <li>Clothes</li>
+        <li>Accessories</li>
+        <li>Money</li>
+        <li>Shoes</li>
+        <li>Toiletries</li>
+        <li>Chargers</li>
+        <li>Camera</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Travel Itinerary Planner-Made by Neeraj and Dolcy.</p>
+  </footer>
+</body>
+</html>
