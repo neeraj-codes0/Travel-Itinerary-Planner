@@ -50,14 +50,14 @@
       "map": "https://link-to-manali-map.com"
     }, 
     {
-      "name": "uttarakhand",
+      "name": "Uttrakhand",
       "country": "India",
       "activities": ["Nainital", "Jim Corbett National Park", "Rishikesh"],
       "weather": "Cold",
       "map": "https://link-to-uttarakhand-map.com"
     },
     {
-      "name": "delhi",
+      "name": "Delhi",
       "country": "India",
       "activities": ["Red Fort", "Qutub Minar", "India Gate"],
       "weather": "Hot",
@@ -183,12 +183,12 @@
       "map": "https://link-to-berlin-map.com"
     },
     {
-        "name": "London",
-        "country": "England",
-        "activities": ["Big Ben", "London Eye", "Buckingham Palace"],
-        "weather": "Cold",
-        "map": "https://link-to-london-map.com"
-      },
+      "name": "London",
+      "country": "England",
+      "activities": ["Big Ben", "London Eye", "Buckingham Palace"],
+      "weather": "Cold",
+      "map": "https://link-to-london-map.com"
+    },
     {
       "name": "Paris",
       "country": "France",
@@ -204,19 +204,19 @@
       "map": "https://link-to-tokyo-map.com"
     },
     {
-        "name": "Sydney",
-        "country": "Australia",
-        "activities": ["Sydney Opera House", "Bondi Beach", "Blue Mountains Tour"],
-        "weather": "Hot",
-        "map": "https://link-to-sydney-map.com"
-      },
-      {
-          "name": "Rome", 
-          "country": "Italy",
-          "activities": ["Colosseum", "Vatican City", "Trevi Fountain"],
-          "weather": "Mild",
-          "map": "https://link-to-rome-map.com"   
-      },
+      "name": "Sydney",
+      "country": "Australia",
+      "activities": ["Sydney Opera House", "Bondi Beach", "Blue Mountains Tour"],
+      "weather": "Hot",
+      "map": "https://link-to-sydney-map.com"
+    },
+    {
+      "name": "Rome", 
+      "country": "Italy",
+      "activities": ["Colosseum", "Vatican City", "Trevi Fountain"],
+      "weather": "Mild",
+      "map": "https://link-to-rome-map.com"   
+    },
     {
       "name": "New York",
       "country": "USA",
@@ -225,11 +225,11 @@
       "map": "https://link-to-new-york-map.com"
     },
     {
-        "name": "Los Angeles",
-        "country": "USA",
-        "activities": ["Hollywood Walk of Fame", "Santa Monica Pier", "Universal Studios"],
-        "weather": "Hot",
-        "map": "https://link-to-los-angeles-map.com"
+      "name": "Los Angeles",
+      "country": "USA",
+      "activities": ["Hollywood Walk of Fame", "Santa Monica Pier", "Universal Studios"],
+      "weather": "Hot",
+      "map": "https://link-to-los-angeles-map.com"
     },
     {
       "name": "Thailand",
@@ -253,11 +253,11 @@
       "map": "https://link-to-malaysia-map.com"
     },
     {
-        "name": "Singapore",
-        "country": "Singapore",
-        "activities": ["Gardens by the Bay", "Marina Bay Sands", "Chinatown"],
-        "weather": "Hot",
-        "map": "https://link-to-singapore-map.com"
+      "name": "Singapore",
+      "country": "Singapore",
+      "activities": ["Gardens by the Bay", "Marina Bay Sands", "Chinatown"],
+      "weather": "Hot",
+      "map": "https://link-to-singapore-map.com"
     }
   ]
 }

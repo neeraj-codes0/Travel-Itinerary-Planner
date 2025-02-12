@@ -6,15 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel Itinerary Planner</title>
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/script.js" defer></script>
 </head>
 
 <body>
-  <script src="assets/js/script.js"></script>
   <header>
-    <h1>Travel Itinerary Planner</h1>
+    <h1>TripTact-Travel Itinerary Planner</h1>
     <nav>
       <a href="">Home</a>
-      <a href="">About</a>
+      <a href="about.html" target="_blank">About</a>
       <a href="">Itinerary</a>
       <a href="">Packing Checklist</a>
       <a href="">Contact and Feedback</a>
@@ -24,81 +24,76 @@
   <main>
     <section id="india-abroad">
       <h2>India OR Abroad</h2>
-      <input type="radio" id="india" name="india-abroad" value="india">
+      <input type="radio" id="india" name="india-abroad" value="india" onclick="filterDestinations()">
       <label for="india">India</label>
-      <input type="radio" id="abroad" name="india-abroad" value="abroad">
+      <input type="radio" id="abroad" name="india-abroad" value="abroad" onclick="filterDestinations()">
       <label for="abroad">Abroad</label>
-      <input type="radio" id="both" name="india-abroad" value="both">
+      <input type="radio" id="both" name="india-abroad" value="both" onclick="filterDestinations()">
       <label for="both">Both</label>
     </section>
     
     <section id="travel-dates">
       <h2>Travel Dates</h2>
       <label for="start-date">Start Date:</label>
-      <input type="date" id="start-date" name="start-date">
+      <input type="date" id="start-date" name="start-date" onchange="calculateDays()">
       <label for="end-date">End Date:</label>
-      <input type="date" id="end-date" name="end-date">
-      <p id="number-of-days">Number of days: <input type="number" id="number-of-days" name="number-of-days" value="0"></p>
+      <input type="date" id="end-date" name="end-date" onchange="calculateDays()">
+      <p id="number-of-days">Number of days: <span id="days-count">0</span></p>
     </section>
 
     <section id="destination-selector">
       <h2>Select Destination</h2>
-
       <select id="destination-dropdown">
         <option value="none">Select Destination</option>
-        <option value="agra">Agra</option>
-        <option value="jaipur">Jaipur</option>
-        <option value="kerala">Kerala</option>
-        <option value="ladakh">Ladakh</option>
-        <option value="andaman-nicobar">Andaman & Nicobar</option>
-        <option value="shimla">Shimla</option>
-        <option value="manali">Manali</option>
-        <option value="uttrakhand">Uttrakhand</option>
-        <option value="delhi">Delhi</option>
-        <option value="goa">Goa</option>
-        <option value="kashmir">Kashmir</option>
-        <option value="kolkata">Kolkata</option>
-        <option value="mumbai">Mumbai</option>
-        <option value="bangalore">Bangalore</option>
-        <option value="chennai">Chennai</option>
-        <option value="hyderabad">Hyderabad</option>
-        <option value="kochi">Kochi</option>
-        <option value="dubai">Dubai</option>
-        <option value="cairo">Cairo</option>
-        <option value="istanbul">Istanbul</option>
-        <option value="barcelona">Barcelona</option>
-        <option value="venice">Venice</option>
-        <option value="vienna">Vienna</option>
-        <option value="prague">Prague</option>
-        <option value="amsterdam">Amsterdam</option>
-        <option value="berlin">Berlin</option>
-        <option value="london">London</option>
-        <option value="paris">Paris</option>
-        <option value="tokyo">Tokyo</option>
-        <option value="sydney">Sydney</option>
-        <option value="rome">Rome</option>
-        <option value="new-york">New York</option>
-        <option value="los-angeles">Los Angeles</option>
-        <option value="thailand">Thailand</option>
-        <option value="maldives">Maldives</option>
-        <option value="malaysia">Malaysia</option>
-        <option value="singapore">Singapore</option>
+        <option value="agra" data-location="india">Agra</option>
+        <option value="jaipur"data-location="india">Jaipur</option>
+        <option value="kerala" data-location="india">Kerala</option>
+        <option value="ladakh" data-location="india">Ladakh</option>
+        <option value="andaman-nicobar" data-location="india">Andaman & Nicobar</option>
+        <option value="shimla" data-location="india">Shimla</option>
+        <option value="manali" data-location="india">Manali</option>
+        <option value="uttrakhand" data-location="india">Uttrakhand</option>
+        <option value="delhi" data-location="india">Delhi</option>
+        <option value="goa" data-location="india">Goa</option>
+        <option value="kashmir" data-location="india">Kashmir</option>
+        <option value="kolkata" data-location="india">Kolkata</option>
+        <option value="mumbai" data-location="india">Mumbai</option>
+        <option value="bangalore" data-location="india">Bangalore</option>
+        <option value="chennai" data-location="india">Chennai</option>
+        <option value="hyderabad" data-location="india">Hyderabad</option>
+        <option value="kochi" data-location="india">Kochi</option>
+        <option value="dubai" data-location="abroad">Dubai</option>
+        <option value="cairo" data-location="abroad">Cairo</option>
+        <option value="istanbul" data-location="abroad">Istanbul</option>
+        <option value="barcelona" data-location="abroad">Barcelona</option>
+        <option value="venice" data-location="abroad">Venice</option>
+        <option value="vienna" data-location="abroad">Vienna</option>
+        <option value="prague" data-location="abroad">Prague</option>
+        <option value="amsterdam" data-location="abroad">Amsterdam</option>
+        <option value="berlin" data-location="abroad">Berlin</option>
+        <option value="london" data-location="abroad">London</option>
+        <option value="paris" data-location="abroad">Paris</option>
+        <option value="tokyo" data-location="abroad">Tokyo</option>
+        <option value="sydney" data-location="abroad">Sydney</option>
+        <option value="rome" data-location="abroad">Rome</option>
+        <option value="new-york" data-location="abroad">New York</option>
+        <option value="los-angeles" data-location="abroad">Los Angeles</option>
+        <option value="thailand" data-location="abroad">Thailand</option>
+        <option value="maldives" data-location="abroad">Maldives</option>
+        <option value="malaysia" data-location="abroad">Malaysia</option>
+        <option value="singapore" data-location="abroad">Singapore</option>
       </select>
-      <button onclick="generateitineraty()">Generate Itinerary</button>
+      <button onclick="generateitinerary()">Generate Itinerary</button>
     </section>
 
     <section id="itinerary">
       <h2>Your Itinerary</h2>
-      <div id="itinerary-content">
-        
-      </div>
+      <div id="itinerary-content"></div>
     </section>
 
     <section id="destination-details">
       <h2>Destination Details</h2>
-      <div id="destination-details-content">
-
-      </div>
+      <div id="destination-details-content"></div>
     </section>
 
     <section id="packing-checklist">
@@ -118,9 +113,8 @@
       </ul>
     </section>
   </main>
-
-  <footer>
+</body>  
+<footer>
     <p>&copy; 2025 Travel Itinerary Planner-Made by Neeraj and Dolcy.</p>
-  </footer>
-</body>
+</footer>
 </html>

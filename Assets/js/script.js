@@ -1,56 +1,58 @@
-//Fetch from JSON and populate dropdown with data from API 
-document.addEventListener("DOMContentLoaded", () => {
-    fetch("data/destinations.json")
-        .then((response) => response.json())
-        .then((data) => {
-            const dropdown = document.getElementById("destination-dropdown");
-            data.destinations.forEach((destination) => {
-                let option = document.createElement("option");
-                option.value = destination.name.toLowerCase();
-                option.textContent = destination.name;
-                dropdown.appendChild(option);
-            });
-        });
-});
+//Filtering Destinations based on India/Abroad selection
+function filterDestinations() {
+    const selectedOption = document.querySelector('input[name="india-abroad"]:checked').value;
+    const dropdown = document.getElementById('destination-dropdown');
+    const options = dropdown.querySelectorAll('option');
 
-//Update Itinerary & Details based on selected destination
-document.getElementById("destination-dropdown").addEventListener("change", function () {
-    const selected = this.value;
-    fetch("data/destinations.json")
-        .then((response) => response.json())
-        .then((data) => {
-            const destination = data.destinations.find((d => d.name.toLowerCase() === selected));
-            if(!destination) return;
-
-//Update Destination Details
-document.getElementById("destination-details").innerHTML = `<p><strong>Country:</strong>${destinations.country}</p>
-<p><strong>Weather:</strong>${destinations.weather}</p>
-<p><strong>Activities:</strong>${destinations.activities.join(',')}</p>
-<a href="${destinations.map}">View Map</a>`;
-        
-//Generate Itinerary
-const itinerarycontent = document.getElementById("itinerary-content");
-itinerarycontent.innerHTML = "";
-destinations.activities.forEach((activity,index) => {
-    const daydiv = document.createElement("div");
-    daydiv.classList.add("itinerary-day");
-    daydiv.innerHTML = `<h3>Day ${index + 1}</h3><p>${activity}</p>`;
-    itinerarycontent.appendChild(daydiv);
-    setTimeout(() => daydiv.classList.add("show"), index * 200);
+    options.forEach(option => {
+      if (selectedOption === 'both' || option.dataset.location === selectedOption) {
+        option.style.display = 'block';
+      } else {
+        option.style.display = 'none';
+      }
     });
-});
-});
+  }
 
-//Packing Checklist Functionality
-function addChecklistItem() {
-    const input = document.getElementById("packing-input");
-    if (input.value.trim()==="") return;
-    const checklist = document.getElementById("checklist-items");
-    const li= document.createElement("li");
-    li.textContent = input.value;
-    li.addEventListener("click", () => li.classList.add("removed"));
-    setTimeout(() => li.remove(), 300);
-    checklist.appendChild(li);
-    setTimeout(() => li.classList.add("show"), 100);
-    input.value = "";
+//Calculating Trip Duration
+function calculateDays() {
+    const startDateInput = document.getElementById('start-date').value;
+    const endDateInput = document.getElementById('end-date').value;
+    const daysCountElement = document.getElementById('days-count');
+
+    if (!startDateInput || !endDateInput) {
+        daysCountElement.textContent = 0;
+        return;
+    }
+
+    const startDate = new Date(startDateInput);
+    const endDate = new Date(endDateInput);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0); // Set time to midnight to compare only dates
+
+    if (isNaN(startDate.getTime()) || isNaN(endDate.getTime())) {
+        daysCountElement.textContent = "Invalid date(s) entered";
+        return;
+    }
+
+    if (startDate < today) {
+        daysCountElement.textContent = "Start date cannot be in the past";
+        return;
+    }
+
+    if (endDate < startDate) {
+        daysCountElement.textContent = "End date cannot be before start date";
+        return;
+    }
+
+    const timeDifference = endDate - startDate;
+    const daysDifference = timeDifference / (1000 * 3600 * 24) + 1; // Adding 1 to include the start date
+    daysCountElement.textContent = daysDifference;
 }
+
+//Generate Itineray
+function generateitinerary() {
+    
+}
+
+
+
