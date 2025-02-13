@@ -49,10 +49,36 @@ function calculateDays() {
     daysCountElement.textContent = daysDifference;
 }
 
-//Generate Itineray
-function generateitinerary() {
-    
+// Fetch and display destination details
+async function generateItinerary() {
+    const dropdown = document.getElementById('destination-dropdown');
+    const selectedDestination = dropdown.value;
+    const detailsContainer = document.getElementById('destination-details-content');
+
+    if (selectedDestination === 'none') {
+        detailsContainer.innerHTML = '<p>Please select a destination.</p>';
+        return;
+    }
+
+    try {
+        const response = await fetch('Data/destinations.json');
+        const data = await response.json();
+        const destination = data.destinations.find(dest => dest.name.toLowerCase().replace(/ /g, '-') === selectedDestination);
+
+        if (!destination) {
+            detailsContainer.innerHTML = '<p>Destination details not found.</p>';
+            return;
+        }
+
+        detailsContainer.innerHTML = `
+            <h3>${destination.name}</h3>
+            <p>Country: ${destination.country}</p>
+            <p>Activities: ${destination.activities.join(', ')}</p>
+            <p>Weather: ${destination.weather}</p>
+            <a href="${destination.map}" target="_blank">View Map</a>
+        `;
+    } catch (error) {
+        detailsContainer.innerHTML = '<p>Error fetching destination details.</p>';
+    }
 }
-
-
 
