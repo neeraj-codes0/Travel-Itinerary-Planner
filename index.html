@@ -95,12 +95,14 @@
         <option value="malaysia" data-location="abroad">Malaysia</option>
         <option value="singapore" data-location="abroad">Singapore</option>
       </select>
-      <button onclick="generateItinerary()">Generate Itinerary</button>
+      <button onclick="loadDestinationDetails()">Load Destination Details</button>
     </section>
 
     <section id="destination-details">
       <h2>Destination Details</h2>
-      <div id="destination-details-content"></div>
+      <div id="destination-details-content">
+        <button id=1 onclick="generateDayWiseItinerary()">Generate Day-wise Itinerary</button>
+      </div>
     </section>
 
     <section id="itinerary">

@@ -50,7 +50,7 @@ function calculateDays() {
 }
 
 // Fetch and display destination details
-async function generateItinerary() {
+async function loadDestinationDetails() {
     const dropdown = document.getElementById('destination-dropdown');
     const selectedDestination = dropdown.value;
     const detailsContainer = document.getElementById('destination-details-content');
@@ -81,4 +81,74 @@ async function generateItinerary() {
         detailsContainer.innerHTML = '<p>Error fetching destination details.</p>';
     }
 }
+
+// Generate day-wise itinerary for the selected location based on trip duration
+async function generateDayWiseItinerary() {
+    const dropdown = document.getElementById('destination-dropdown');
+    const selectedDestination = dropdown.value;
+    const startDateInput = document.getElementById('start-date').value;
+    const endDateInput = document.getElementById('end-date').value;
+    const itineraryContainer = document.getElementById('itinerary-content');
+
+    if (selectedDestination === 'none') {
+        itineraryContainer.innerHTML = '<p>Please select a destination.</p>';
+        return;
+    }
+
+    if (!startDateInput || !endDateInput) {
+        itineraryContainer.innerHTML = '<p>Please select both start and end dates.</p>';
+        return;
+    }
+
+    const startDate = new Date(startDateInput);
+    const endDate = new Date(endDateInput);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    if (isNaN(startDate.getTime()) || isNaN(endDate.getTime())) {
+        itineraryContainer.innerHTML = '<p>Invalid date(s) entered.</p>';
+        return;
+    }
+
+    if (startDate < today) {
+        itineraryContainer.innerHTML = '<p>Start date cannot be in the past.</p>';
+        return;
+    }
+
+    if (endDate < startDate) {
+        itineraryContainer.innerHTML = '<p>End date cannot be before start date.</p>';
+        return;
+    }
+
+    const timeDifference = endDate - startDate;
+    const daysDifference = timeDifference / (1000 * 3600 * 24) + 1;
+
+    try {
+        const response = await fetch('Data/destinations.json');
+        const data = await response.json();
+        const destination = data.destinations.find(dest => dest.name.toLowerCase().replace(/ /g, '-') === selectedDestination);
+
+        if (!destination) {
+            itineraryContainer.innerHTML = '<p>Destination details not found.</p>';
+            return;
+        }
+
+        let itineraryHTML = `<h3>Itinerary for ${destination.name} (${daysDifference} days)</h3>`;
+        for (let i = 0; i < daysDifference; i++) {
+            const activity = destination.activities[i % destination.activities.length];
+            itineraryHTML += `
+                <div class="day-itinerary">
+                    <h4>Day ${i + 1}</h4>
+                    <p>Activity: ${activity}</p>
+                </div>
+            `;
+        }
+
+        itineraryContainer.innerHTML = itineraryHTML;
+    } catch (error) {
+        itineraryContainer.innerHTML = '<p>Error fetching destination details.</p>';
+    }
+}
+
+
 
