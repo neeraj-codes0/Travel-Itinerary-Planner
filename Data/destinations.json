@@ -1,652 +1,677 @@
 {
-  "destinations": [
+  "countries": [
     {
-      "name": "Agra",
-      "country": "India",
-      "weather": "Hot",
-      "map": "https://link-to-agra-map.com",
-      "activities": [
-        "Taj Mahal", "Agra Fort", "Fatehpur Sikri", "Mehtab Bagh", "Itmad-ud-Daula", "Akbar's Tomb", "Jama Masjid"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Taj Mahal"],
-        "Day 2": ["Agra Fort"],
-        "Day 3": ["Fatehpur Sikri"],
-        "Day 4": ["Mehtab Bagh"],
-        "Day 5": ["Itmad-ud-Daula"],
-        "Day 6": ["Akbar's Tomb"],
-        "Day 7": ["Jama Masjid"]
-      }
+      "name": "India",
+      "destinations": [
+        {
+          "name": "Agra",
+          "weather": "Hot",
+          "map": "https://link-to-agra-map.com",
+          "activities": [
+            "Taj Mahal", "Agra Fort", "Fatehpur Sikri", "Mehtab Bagh", "Itmad-ud-Daula", "Akbar's Tomb", "Jama Masjid"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Taj Mahal"],
+            "Day 2": ["Agra Fort"],
+            "Day 3": ["Fatehpur Sikri"],
+            "Day 4": ["Mehtab Bagh"],
+            "Day 5": ["Itmad-ud-Daula"],
+            "Day 6": ["Akbar's Tomb"],
+            "Day 7": ["Jama Masjid"]
+          }
+        },
+        {
+          "name": "Jaipur",
+          "weather": "Hot",
+          "map": "https://link-to-jaipur-map.com",
+          "activities": [
+            "Amber Fort", "City Palace", "Jantar Mantar", "Hawa Mahal", "Jal Mahal", "Nahargarh Fort", "Albert Hall Museum"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Amber Fort"],
+            "Day 2": ["City Palace"],
+            "Day 3": ["Jantar Mantar"],
+            "Day 4": ["Hawa Mahal"],
+            "Day 5": ["Jal Mahal"],
+            "Day 6": ["Nahargarh Fort"],
+            "Day 7": ["Albert Hall Museum"]
+          }
+        },
+        {
+          "name": "Kerala",
+          "weather": "Hot",
+          "map": "https://link-to-kerala-map.com",
+          "activities": [
+            "Backwaters Tour", "Kathakali Show", "Tea Plantation Visit", "Munnar", "Periyar Wildlife Sanctuary", "Kumarakom Bird Sanctuary", "Varkala Beach"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Backwaters Tour"],
+            "Day 2": ["Kathakali Show"],
+            "Day 3": ["Tea Plantation Visit"],
+            "Day 4": ["Munnar"],
+            "Day 5": ["Periyar Wildlife Sanctuary"],
+            "Day 6": ["Kumarakom Bird Sanctuary"],
+            "Day 7": ["Varkala Beach"]
+          }
+        },
+        {
+          "name": "Ladakh",
+          "weather": "Cold",
+          "map": "https://link-to-ladakh-map.com",
+          "activities": [
+            "Pangong Lake", "Nubra Valley", "Leh Palace", "Thiksey Monastery", "Hemis Monastery", "Shanti Stupa", "Magnetic Hill"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Pangong Lake"],
+            "Day 2": ["Nubra Valley"],
+            "Day 3": ["Leh Palace"],
+            "Day 4": ["Thiksey Monastery"],
+            "Day 5": ["Hemis Monastery"],
+            "Day 6": ["Shanti Stupa"],
+            "Day 7": ["Magnetic Hill"]
+          }
+        },
+        {
+          "name": "Andaman-nicobar",
+          "weather": "Hot",
+          "map": "https://link-to-andaman-map.com",
+          "activities": [
+            "Snorkeling", "Scuba Diving", "Elephant Beach", "Radhanagar Beach", "Cellular Jail", "Ross Island", "Baratang Island"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Snorkeling"],
+            "Day 2": ["Scuba Diving"],
+            "Day 3": ["Elephant Beach"],
+            "Day 4": ["Radhanagar Beach"],
+            "Day 5": ["Cellular Jail"],
+            "Day 6": ["Ross Island"],
+            "Day 7": ["Baratang Island"]
+          }
+        },
+        {
+          "name": "Shimla",
+          "weather": "Cold",
+          "map": "https://link-to-shimla-map.com",
+          "activities": [
+            "Mall Road", "Jakhoo Temple", "Kufri", "Christ Church", "The Ridge", "Summer Hill", "Tara Devi Temple"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Mall Road"],
+            "Day 2": ["Jakhoo Temple"],
+            "Day 3": ["Kufri"],
+            "Day 4": ["Christ Church"],
+            "Day 5": ["The Ridge"],
+            "Day 6": ["Summer Hill"],
+            "Day 7": ["Tara Devi Temple"]
+          }
+        },
+        {
+          "name": "Manali",
+          "weather": "Cold",
+          "map": "https://link-to-manali-map.com",
+          "activities": [
+            "Solang Valley", "Rohtang Pass", "Hadimba Temple", "Manu Temple", "Vashisht Hot Water Springs", "Old Manali", "Jogini Waterfall"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Solang Valley"],
+            "Day 2": ["Rohtang Pass"],
+            "Day 3": ["Hadimba Temple"],
+            "Day 4": ["Manu Temple"],
+            "Day 5": ["Vashisht Hot Water Springs"],
+            "Day 6": ["Old Manali"],
+            "Day 7": ["Jogini Waterfall"]
+          }
+        },
+        {
+          "name": "Uttrakhand",
+          "weather": "Cold",
+          "map": "https://link-to-uttarakhand-map.com",
+          "activities": [
+            "Nainital", "Jim Corbett National Park", "Rishikesh", "Haridwar", "Mussoorie", "Auli", "Badrinath"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Nainital"],
+            "Day 2": ["Jim Corbett National Park"],
+            "Day 3": ["Rishikesh"],
+            "Day 4": ["Haridwar"],
+            "Day 5": ["Mussoorie"],
+            "Day 6": ["Auli"],
+            "Day 7": ["Badrinath"]
+          }
+        },
+        {
+          "name": "Delhi",
+          "weather": "Hot",
+          "map": "https://link-to-delhi-map.com",
+          "activities": [
+            "Red Fort", "Qutub Minar", "India Gate", "Lotus Temple", "Humayun's Tomb", "Chandni Chowk", "Rashtrapati Bhavan"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Red Fort"],
+            "Day 2": ["Qutub Minar"],
+            "Day 3": ["India Gate"],
+            "Day 4": ["Lotus Temple"],
+            "Day 5": ["Humayun's Tomb"],
+            "Day 6": ["Chandni Chowk"],
+            "Day 7": ["Rashtrapati Bhavan"]
+          }
+        },
+        {
+          "name": "Goa",
+          "weather": "Hot",
+          "map": "https://link-to-goa-map.com",
+          "activities": [
+            "Beach Party", "Dudhsagar Waterfall", "Basilica of Bom Jesus", "Anjuna Beach", "Fort Aguada", "Calangute Beach", "Baga Beach"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Beach Party"],
+            "Day 2": ["Dudhsagar Waterfall"],
+            "Day 3": ["Basilica of Bom Jesus"],
+            "Day 4": ["Anjuna Beach"],
+            "Day 5": ["Fort Aguada"],
+            "Day 6": ["Calangute Beach"],
+            "Day 7": ["Baga Beach"]
+          }
+        },
+        {
+          "name": "Kashmir",
+          "weather": "Cold",
+          "map": "https://link-to-kashmir-map.com",
+          "activities": [
+            "Dal Lake", "Shalimar Bagh", "Gulmarg", "Sonamarg", "Pahalgam", "Mughal Gardens", "Betaab Valley"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Dal Lake"],
+            "Day 2": ["Shalimar Bagh"],
+            "Day 3": ["Gulmarg"],
+            "Day 4": ["Sonamarg"],
+            "Day 5": ["Pahalgam"],
+            "Day 6": ["Mughal Gardens"],
+            "Day 7": ["Betaab Valley"]
+          }
+        },
+        {
+          "name": "Kolkata",
+          "weather": "Hot",
+          "map": "https://link-to-kolkata-map.com",
+          "activities": [
+            "Victoria Memorial", "Howrah Bridge", "Indian Museum", "Dakshineswar Kali Temple", "Eden Gardens", "Birla Planetarium", "Science City"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Victoria Memorial"],
+            "Day 2": ["Howrah Bridge"],
+            "Day 3": ["Indian Museum"],
+            "Day 4": ["Dakshineswar Kali Temple"],
+            "Day 5": ["Eden Gardens"],
+            "Day 6": ["Birla Planetarium"],
+            "Day 7": ["Science City"]
+          }
+        },
+        {
+          "name": "Mumbai",
+          "weather": "Hot",
+          "map": "https://link-to-mumbai-map.com",
+          "activities": [
+            "Gateway of India", "Marine Drive", "Elephanta Caves", "Chhatrapati Shivaji Maharaj Terminus", "Haji Ali Dargah", "Siddhivinayak Temple", "Juhu Beach"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Gateway of India"],
+            "Day 2": ["Marine Drive"],
+            "Day 3": ["Elephanta Caves"],
+            "Day 4": ["Chhatrapati Shivaji Maharaj Terminus"],
+            "Day 5": ["Haji Ali Dargah"],
+            "Day 6": ["Siddhivinayak Temple"],
+            "Day 7": ["Juhu Beach"]
+          }
+        },
+        {
+          "name": "Bangalore",
+          "weather": "Hot",
+          "map": "https://link-to-bangalore-map.com",
+          "activities": [
+            "Lalbagh Botanical Garden", "Bangalore Palace", "Cubbon Park", "Bannerghatta National Park", "ISKCON Temple", "Commercial Street", "Wonderla"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Lalbagh Botanical Garden"],
+            "Day 2": ["Bangalore Palace"],
+            "Day 3": ["Cubbon Park"],
+            "Day 4": ["Bannerghatta National Park"],
+            "Day 5": ["ISKCON Temple"],
+            "Day 6": ["Commercial Street"],
+            "Day 7": ["Wonderla"]
+          }
+        },
+        {
+          "name": "Chennai",
+          "weather": "Hot",
+          "map": "https://link-to-chennai-map.com",
+          "activities": [
+            "Marina Beach", "Kapaleeshwarar Temple", "Fort St. George", "Santhome Cathedral", "Guindy National Park", "Valluvar Kottam", "Elliot's Beach"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Marina Beach"],
+            "Day 2": ["Kapaleeshwarar Temple"],
+            "Day 3": ["Fort St. George"],
+            "Day 4": ["Santhome Cathedral"],
+            "Day 5": ["Guindy National Park"],
+            "Day 6": ["Valluvar Kottam"],
+            "Day 7": ["Elliot's Beach"]
+          }
+        }
+      ]
     },
     {
-      "name": "Jaipur",
-      "country": "India",
-      "weather": "Hot",
-      "map": "https://link-to-jaipur-map.com",
-      "activities": [
-        "Amber Fort", "City Palace", "Jantar Mantar", "Hawa Mahal", "Jal Mahal", "Nahargarh Fort", "Albert Hall Museum"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Amber Fort"],
-        "Day 2": ["City Palace"],
-        "Day 3": ["Jantar Mantar"],
-        "Day 4": ["Hawa Mahal"],
-        "Day 5": ["Jal Mahal"],
-        "Day 6": ["Nahargarh Fort"],
-        "Day 7": ["Albert Hall Museum"]
-      }
+      "name": "UAE",
+      "destinations": [
+        {
+          "name": "Dubai",
+          "weather": "Hot",
+          "map": "https://link-to-dubai-map.com",
+          "activities": [
+            "Burj Khalifa", "Desert Safari", "Dubai Mall", "Palm Jumeirah", "Dubai Marina", "Dubai Fountain", "Burj Al Arab"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Burj Khalifa"],
+            "Day 2": ["Desert Safari"],
+            "Day 3": ["Dubai Mall"],
+            "Day 4": ["Palm Jumeirah"],
+            "Day 5": ["Dubai Marina"],
+            "Day 6": ["Dubai Fountain"],
+            "Day 7": ["Burj Al Arab"]
+          }
+        }
+      ]
     },
     {
-      "name": "Kerala",
-      "country": "India",
-      "weather": "Hot",
-      "map": "https://link-to-kerala-map.com",
-      "activities": [
-        "Backwaters Tour", "Kathakali Show", "Tea Plantation Visit", "Munnar", "Periyar Wildlife Sanctuary", "Kumarakom Bird Sanctuary", "Varkala Beach"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Backwaters Tour"],
-        "Day 2": ["Kathakali Show"],
-        "Day 3": ["Tea Plantation Visit"],
-        "Day 4": ["Munnar"],
-        "Day 5": ["Periyar Wildlife Sanctuary"],
-        "Day 6": ["Kumarakom Bird Sanctuary"],
-        "Day 7": ["Varkala Beach"]
-      }
+      "name": "Egypt",
+      "destinations": [
+        {
+          "name": "Cairo",
+          "weather": "Hot",
+          "map": "https://link-to-cairo-map.com",
+          "activities": [
+            "Pyramids of Giza", "Khan el-Khalili", "Nile River Cruise", "Egyptian Museum", "Coptic Cairo", "Al-Azhar Park", "Citadel of Saladin"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Pyramids of Giza"],
+            "Day 2": ["Khan el-Khalili"],
+            "Day 3": ["Nile River Cruise"],
+            "Day 4": ["Egyptian Museum"],
+            "Day 5": ["Coptic Cairo"],
+            "Day 6": ["Al-Azhar Park"],
+            "Day 7": ["Citadel of Saladin"]
+          }
+        }
+      ]
     },
     {
-      "name": "Ladakh",
-      "country": "India",
-      "weather": "Cold",
-      "map": "https://link-to-ladakh-map.com",
-      "activities": [
-        "Pangong Lake", "Nubra Valley", "Leh Palace", "Thiksey Monastery", "Hemis Monastery", "Shanti Stupa", "Magnetic Hill"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Pangong Lake"],
-        "Day 2": ["Nubra Valley"],
-        "Day 3": ["Leh Palace"],
-        "Day 4": ["Thiksey Monastery"],
-        "Day 5": ["Hemis Monastery"],
-        "Day 6": ["Shanti Stupa"],
-        "Day 7": ["Magnetic Hill"]
-      }
+      "name": "Turkey",
+      "destinations": [
+        {
+          "name": "Istanbul",
+          "weather": "Mild",
+          "map": "https://link-to-istanbul-map.com",
+          "activities": [
+            "Hagia Sophia", "Blue Mosque", "Grand Bazaar", "Topkapi Palace", "Basilica Cistern", "Galata Tower", "Dolmabahce Palace"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Hagia Sophia"],
+            "Day 2": ["Blue Mosque"],
+            "Day 3": ["Grand Bazaar"],
+            "Day 4": ["Topkapi Palace"],
+            "Day 5": ["Basilica Cistern"],
+            "Day 6": ["Galata Tower"],
+            "Day 7": ["Dolmabahce Palace"]
+          }
+        }
+      ]
     },
     {
-      "name": "Andaman-nicobar",
-      "country": "India",
-      "weather": "Hot",
-      "map": "https://link-to-andaman-map.com",
-      "activities": [
-        "Snorkeling", "Scuba Diving", "Elephant Beach", "Radhanagar Beach", "Cellular Jail", "Ross Island", "Baratang Island"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Snorkeling"],
-        "Day 2": ["Scuba Diving"],
-        "Day 3": ["Elephant Beach"],
-        "Day 4": ["Radhanagar Beach"],
-        "Day 5": ["Cellular Jail"],
-        "Day 6": ["Ross Island"],
-        "Day 7": ["Baratang Island"]
-      }
+      "name": "Spain",
+      "destinations": [
+        {
+          "name": "Barcelona",
+          "weather": "Mild",
+          "map": "https://link-to-barcelona-map.com",
+          "activities": [
+            "Sagrada Familia", "Park Guell", "La Rambla", "Gothic Quarter", "Casa Batllo", "Montjuic", "Camp Nou"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Sagrada Familia"],
+            "Day 2": ["Park Guell"],
+            "Day 3": ["La Rambla"],
+            "Day 4": ["Gothic Quarter"],
+            "Day 5": ["Casa Batllo"],
+            "Day 6": ["Montjuic"],
+            "Day 7": ["Camp Nou"]
+          }
+        }
+      ]
     },
     {
-      "name": "Shimla",
-      "country": "India",
-      "weather": "Cold",
-      "map": "https://link-to-shimla-map.com",
-      "activities": [
-        "Mall Road", "Jakhoo Temple", "Kufri", "Christ Church", "The Ridge", "Summer Hill", "Tara Devi Temple"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Mall Road"],
-        "Day 2": ["Jakhoo Temple"],
-        "Day 3": ["Kufri"],
-        "Day 4": ["Christ Church"],
-        "Day 5": ["The Ridge"],
-        "Day 6": ["Summer Hill"],
-        "Day 7": ["Tara Devi Temple"]
-      }
+      "name": "Italy",
+      "destinations": [
+        {
+          "name": "Venice",
+          "weather": "Cold",
+          "map": "https://link-to-venice-map.com",
+          "activities": [
+            "Gondola Ride", "St. Mark's Basilica", "Rialto Bridge", "Doge's Palace", "Murano", "Burano", "Peggy Guggenheim Collection"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Gondola Ride"],
+            "Day 2": ["St. Mark's Basilica"],
+            "Day 3": ["Rialto Bridge"],
+            "Day 4": ["Doge's Palace"],
+            "Day 5": ["Murano"],
+            "Day 6": ["Burano"],
+            "Day 7": ["Peggy Guggenheim Collection"]
+          }
+        },
+        {
+          "name": "Rome",
+          "weather": "Hot",
+          "map": "https://link-to-rome-map.com",
+          "activities": [
+            "Colosseum", "Vatican City", "Trevi Fountain", "Pantheon", "Roman Forum", "Piazza Navona", "Spanish Steps"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Colosseum"],
+            "Day 2": ["Vatican City"],
+            "Day 3": ["Trevi Fountain"],
+            "Day 4": ["Pantheon"],
+            "Day 5": ["Roman Forum"],
+            "Day 6": ["Piazza Navona"],
+            "Day 7": ["Spanish Steps"]
+          }
+        }
+      ]
     },
     {
-      "name": "Manali",
-      "country": "India",
-      "weather": "Cold",
-      "map": "https://link-to-manali-map.com",
-      "activities": [
-        "Solang Valley", "Rohtang Pass", "Hadimba Temple", "Manu Temple", "Vashisht Hot Water Springs", "Old Manali", "Jogini Waterfall"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Solang Valley"],
-        "Day 2": ["Rohtang Pass"],
-        "Day 3": ["Hadimba Temple"],
-        "Day 4": ["Manu Temple"],
-        "Day 5": ["Vashisht Hot Water Springs"],
-        "Day 6": ["Old Manali"],
-        "Day 7": ["Jogini Waterfall"]
-      }
+      "name": "Austria",
+      "destinations": [
+        {
+          "name": "Vienna",
+          "weather": "Cold",
+          "map": "https://link-to-vienna-map.com",
+          "activities": [
+            "Schonbrunn Palace", "St. Stephen's Cathedral", "Belvedere Palace", "Hofburg Palace", "Prater", "Albertina", "Vienna State Opera"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Schonbrunn Palace"],
+            "Day 2": ["St. Stephen's Cathedral"],
+            "Day 3": ["Belvedere Palace"],
+            "Day 4": ["Hofburg Palace"],
+            "Day 5": ["Prater"],
+            "Day 6": ["Albertina"],
+            "Day 7": ["Vienna State Opera"]
+          }
+        }
+      ]
     },
     {
-      "name": "Uttrakhand",
-      "country": "India",
-      "weather": "Cold",
-      "map": "https://link-to-uttarakhand-map.com",
-      "activities": [
-        "Nainital", "Jim Corbett National Park", "Rishikesh", "Haridwar", "Mussoorie", "Auli", "Badrinath"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Nainital"],
-        "Day 2": ["Jim Corbett National Park"],
-        "Day 3": ["Rishikesh"],
-        "Day 4": ["Haridwar"],
-        "Day 5": ["Mussoorie"],
-        "Day 6": ["Auli"],
-        "Day 7": ["Badrinath"]
-      }
+      "name": "Czech Republic",
+      "destinations": [
+        {
+          "name": "Prague",
+          "weather": "Cold",
+          "map": "https://link-to-prague-map.com",
+          "activities": [
+            "Charles Bridge", "Prague Castle", "Old Town Square", "St. Vitus Cathedral", "Wenceslas Square", "Lennon Wall", "Petrin Tower"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Charles Bridge"],
+            "Day 2": ["Prague Castle"],
+            "Day 3": ["Old Town Square"],
+            "Day 4": ["St. Vitus Cathedral"],
+            "Day 5": ["Wenceslas Square"],
+            "Day 6": ["Lennon Wall"],
+            "Day 7": ["Petrin Tower"]
+          }
+        }
+      ]
     },
     {
-      "name": "Delhi",
-      "country": "India",
-      "weather": "Hot",
-      "map": "https://link-to-delhi-map.com",
-      "activities": [
-        "Red Fort", "Qutub Minar", "India Gate", "Lotus Temple", "Humayun's Tomb", "Chandni Chowk", "Rashtrapati Bhavan"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Red Fort"],
-        "Day 2": ["Qutub Minar"],
-        "Day 3": ["India Gate"],
-        "Day 4": ["Lotus Temple"],
-        "Day 5": ["Humayun's Tomb"],
-        "Day 6": ["Chandni Chowk"],
-        "Day 7": ["Rashtrapati Bhavan"]
-      }
+      "name": "Netherlands",
+      "destinations": [
+        {
+          "name": "Amsterdam",
+          "weather": "Cold",
+          "map": "https://link-to-amsterdam-map.com",
+          "activities": [
+            "Van Gogh Museum", "Anne Frank House", "Rijksmuseum", "Canal Cruise", "Vondelpark", "Dam Square", "Heineken Experience"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Van Gogh Museum"],
+            "Day 2": ["Anne Frank House"],
+            "Day 3": ["Rijksmuseum"],
+            "Day 4": ["Canal Cruise"],
+            "Day 5": ["Vondelpark"],
+            "Day 6": ["Dam Square"],
+            "Day 7": ["Heineken Experience"]
+          }
+        }
+      ]
     },
     {
-      "name": "Goa",
-      "country": "India",
-      "weather": "Hot",
-      "map": "https://link-to-goa-map.com",
-      "activities": [
-        "Beach Party", "Dudhsagar Waterfall", "Basilica of Bom Jesus", "Anjuna Beach", "Fort Aguada", "Calangute Beach", "Baga Beach"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Beach Party"],
-        "Day 2": ["Dudhsagar Waterfall"],
-        "Day 3": ["Basilica of Bom Jesus"],
-        "Day 4": ["Anjuna Beach"],
-        "Day 5": ["Fort Aguada"],
-        "Day 6": ["Calangute Beach"],
-        "Day 7": ["Baga Beach"]
-      }
+      "name": "Germany",
+      "destinations": [
+        {
+          "name": "Berlin",
+          "weather": "Cold",
+          "map": "https://link-to-berlin-map.com",
+          "activities": [
+            "Brandenburg Gate", "Reichstag Building", "Berlin Wall", "Museum Island", "Checkpoint Charlie", "Alexanderplatz", "Berlin Cathedral"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Brandenburg Gate"],
+            "Day 2": ["Reichstag Building"],
+            "Day 3": ["Berlin Wall"],
+            "Day 4": ["Museum Island"],
+            "Day 5": ["Checkpoint Charlie"],
+            "Day 6": ["Alexanderplatz"],
+            "Day 7": ["Berlin Cathedral"]
+          }
+        }
+      ]
     },
     {
-      "name": "Kashmir",
-      "country": "India",
-      "weather": "Cold",
-      "map": "https://link-to-kashmir-map.com",
-      "activities": [
-        "Dal Lake", "Shalimar Bagh", "Gulmarg", "Sonamarg", "Pahalgam", "Mughal Gardens", "Betaab Valley"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Dal Lake"],
-        "Day 2": ["Shalimar Bagh"],
-        "Day 3": ["Gulmarg"],
-        "Day 4": ["Sonamarg"],
-        "Day 5": ["Pahalgam"],
-        "Day 6": ["Mughal Gardens"],
-        "Day 7": ["Betaab Valley"]
-      }
+      "name": "England",
+      "destinations": [
+        {
+          "name": "London",
+          "weather": "Cold",
+          "map": "https://link-to-london-map.com",
+          "activities": [
+            "Big Ben", "London Eye", "Buckingham Palace", "Tower of London", "British Museum", "Hyde Park", "Westminster Abbey"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Big Ben"],
+            "Day 2": ["London Eye"],
+            "Day 3": ["Buckingham Palace"],
+            "Day 4": ["Tower of London"],
+            "Day 5": ["British Museum"],
+            "Day 6": ["Hyde Park"],
+            "Day 7": ["Westminster Abbey"]
+          }
+        }
+      ]
     },
     {
-      "name": "Kolkata",
-      "country": "India",
-      "weather": "Hot",
-      "map": "https://link-to-kolkata-map.com",
-      "activities": [
-        "Victoria Memorial", "Howrah Bridge", "Indian Museum", "Dakshineswar Kali Temple", "Eden Gardens", "Birla Planetarium", "Science City"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Victoria Memorial"],
-        "Day 2": ["Howrah Bridge"],
-        "Day 3": ["Indian Museum"],
-        "Day 4": ["Dakshineswar Kali Temple"],
-        "Day 5": ["Eden Gardens"],
-        "Day 6": ["Birla Planetarium"],
-        "Day 7": ["Science City"]
-      }
+      "name": "France",
+      "destinations": [
+        {
+          "name": "Paris",
+          "weather": "Cold",
+          "map": "https://link-to-paris-map.com",
+          "activities": [
+            "Eiffel Tower Visit", "Louvre Museum", "Seine River Cruise", "Notre-Dame Cathedral", "Champs-Élysées", "Montmartre", "Palace of Versailles"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Eiffel Tower Visit"],
+            "Day 2": ["Louvre Museum"],
+            "Day 3": ["Seine River Cruise"],
+            "Day 4": ["Notre-Dame Cathedral"],
+            "Day 5": ["Champs-Élysées"],
+            "Day 6": ["Montmartre"],
+            "Day 7": ["Palace of Versailles"]
+          }
+        }
+      ]
     },
     {
-      "name": "Mumbai",
-      "country": "India",
-      "weather": "Hot",
-      "map": "https://link-to-mumbai-map.com",
-      "activities": [
-        "Gateway of India", "Marine Drive", "Elephanta Caves", "Chhatrapati Shivaji Maharaj Terminus", "Haji Ali Dargah", "Siddhivinayak Temple", "Juhu Beach"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Gateway of India"],
-        "Day 2": ["Marine Drive"],
-        "Day 3": ["Elephanta Caves"],
-        "Day 4": ["Chhatrapati Shivaji Maharaj Terminus"],
-        "Day 5": ["Haji Ali Dargah"],
-        "Day 6": ["Siddhivinayak Temple"],
-        "Day 7": ["Juhu Beach"]
-      }
+      "name": "Japan",
+      "destinations": [
+        {
+          "name": "Tokyo",
+          "weather": "Mild",
+          "map": "https://link-to-tokyo-map.com",
+          "activities": [
+            "Mount Fuji Tour", "Shibuya Crossing", "Sushi Tasting", "Tokyo Tower", "Senso-ji Temple", "Meiji Shrine", "Akihabara"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Mount Fuji Tour"],
+            "Day 2": ["Shibuya Crossing"],
+            "Day 3": ["Sushi Tasting"],
+            "Day 4": ["Tokyo Tower"],
+            "Day 5": ["Senso-ji Temple"],
+            "Day 6": ["Meiji Shrine"],
+            "Day 7": ["Akihabara"]
+          }
+        }
+      ]
     },
     {
-      "name": "Bangalore",
-      "country": "India",
-      "weather": "Hot",
-      "map": "https://link-to-bangalore-map.com",
-      "activities": [
-        "Lalbagh Botanical Garden", "Bangalore Palace", "Cubbon Park", "Bannerghatta National Park", "ISKCON Temple", "Commercial Street", "Wonderla"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Lalbagh Botanical Garden"],
-        "Day 2": ["Bangalore Palace"],
-        "Day 3": ["Cubbon Park"],
-        "Day 4": ["Bannerghatta National Park"],
-        "Day 5": ["ISKCON Temple"],
-        "Day 6": ["Commercial Street"],
-        "Day 7": ["Wonderla"]
-      }
+      "name": "Australia",
+      "destinations": [
+        {
+          "name": "Sydney",
+          "weather": "Hot",
+          "map": "https://link-to-sydney-map.com",
+          "activities": [
+            "Sydney Opera House", "Bondi Beach", "Blue Mountains Tour", "Sydney Harbour Bridge", "Taronga Zoo", "The Rocks", "Manly Beach"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Sydney Opera House"],
+            "Day 2": ["Bondi Beach"],
+            "Day 3": ["Blue Mountains Tour"],
+            "Day 4": ["Sydney Harbour Bridge"],
+            "Day 5": ["Taronga Zoo"],
+            "Day 6": ["The Rocks"],
+            "Day 7": ["Manly Beach"]
+          }
+        }
+      ]
     },
     {
-      "name": "Chennai",
-      "country": "India",
-      "weather": "Hot",
-      "map": "https://link-to-chennai-map.com",
-      "activities": [
-        "Marina Beach", "Kapaleeshwarar Temple", "Fort St. George", "Santhome Cathedral", "Guindy National Park", "Valluvar Kottam", "Elliot's Beach"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Marina Beach"],
-        "Day 2": ["Kapaleeshwarar Temple"],
-        "Day 3": ["Fort St. George"],
-        "Day 4": ["Santhome Cathedral"],
-        "Day 5": ["Guindy National Park"],
-        "Day 6": ["Valluvar Kottam"],
-        "Day 7": ["Elliot's Beach"]
-      }
-    },
-    {
-      "name": "Hyderabad",
-      "country": "India",
-      "weather": "Hot",
-      "map": "https://link-to-hyderabad-map.com",
-      "activities": [
-        "Charminar", "Golconda Fort", "Ramoji Film City", "Hussain Sagar Lake", "Salar Jung Museum", "Chowmahalla Palace", "Nehru Zoological Park"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Charminar"],
-        "Day 2": ["Golconda Fort"],
-        "Day 3": ["Ramoji Film City"],
-        "Day 4": ["Hussain Sagar Lake"],
-        "Day 5": ["Salar Jung Museum"],
-        "Day 6": ["Chowmahalla Palace"],
-        "Day 7": ["Nehru Zoological Park"]
-      }
-    },
-    {
-      "name": "Kochi",
-      "country": "India",
-      "weather": "Hot",
-      "map": "https://link-to-kochi-map.com",
-      "activities": [
-        "Fort Kochi", "Mattancherry Palace", "Marine Drive", "Jew Town", "Chinese Fishing Nets", "Santa Cruz Basilica", "Hill Palace"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Fort Kochi"],
-        "Day 2": ["Mattancherry Palace"],
-        "Day 3": ["Marine Drive"],
-        "Day 4": ["Jew Town"],
-        "Day 5": ["Chinese Fishing Nets"],
-        "Day 6": ["Santa Cruz Basilica"],
-        "Day 7": ["Hill Palace"]
-      }
-    },
-    {
-      "name": "Dubai",
-      "country": "UAE",
-      "weather": "Hot",
-      "map": "https://link-to-dubai-map.com",
-      "activities": [
-        "Burj Khalifa", "Desert Safari", "Dubai Mall", "Palm Jumeirah", "Dubai Marina", "Dubai Fountain", "Burj Al Arab"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Burj Khalifa"],
-        "Day 2": ["Desert Safari"],
-        "Day 3": ["Dubai Mall"],
-        "Day 4": ["Palm Jumeirah"],
-        "Day 5": ["Dubai Marina"],
-        "Day 6": ["Dubai Fountain"],
-        "Day 7": ["Burj Al Arab"]
-      }
-    },
-    {
-      "name": "Cairo",
-      "country": "Egypt",
-      "weather": "Hot",
-      "map": "https://link-to-cairo-map.com",
-      "activities": [
-        "Pyramids of Giza", "Khan el-Khalili", "Nile River Cruise", "Egyptian Museum", "Coptic Cairo", "Al-Azhar Park", "Citadel of Saladin"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Pyramids of Giza"],
-        "Day 2": ["Khan el-Khalili"],
-        "Day 3": ["Nile River Cruise"],
-        "Day 4": ["Egyptian Museum"],
-        "Day 5": ["Coptic Cairo"],
-        "Day 6": ["Al-Azhar Park"],
-        "Day 7": ["Citadel of Saladin"]
-      }
-    },
-    {
-      "name": "Istanbul",
-      "country": "Turkey",
-      "weather": "Mild",
-      "map": "https://link-to-istanbul-map.com",
-      "activities": [
-        "Hagia Sophia", "Blue Mosque", "Grand Bazaar", "Topkapi Palace", "Basilica Cistern", "Galata Tower", "Dolmabahce Palace"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Hagia Sophia"],
-        "Day 2": ["Blue Mosque"],
-        "Day 3": ["Grand Bazaar"],
-        "Day 4": ["Topkapi Palace"],
-        "Day 5": ["Basilica Cistern"],
-        "Day 6": ["Galata Tower"],
-        "Day 7": ["Dolmabahce Palace"]
-      }
-    },
-    {
-      "name": "Barcelona",
-      "country": "Spain",
-      "weather": "Mild",
-      "map": "https://link-to-barcelona-map.com",
-      "activities": [
-        "Sagrada Familia", "Park Guell", "La Rambla", "Gothic Quarter", "Casa Batllo", "Montjuic", "Camp Nou"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Sagrada Familia"],
-        "Day 2": ["Park Guell"],
-        "Day 3": ["La Rambla"],
-        "Day 4": ["Gothic Quarter"],
-        "Day 5": ["Casa Batllo"],
-        "Day 6": ["Montjuic"],
-        "Day 7": ["Camp Nou"]
-      }
-    },
-    {
-      "name": "Venice",
-      "country": "Italy",
-      "weather": "Cold",
-      "map": "https://link-to-venice-map.com",
-      "activities": [
-        "Gondola Ride", "St. Mark's Basilica", "Rialto Bridge", "Doge's Palace", "Murano", "Burano", "Peggy Guggenheim Collection"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Gondola Ride"],
-        "Day 2": ["St. Mark's Basilica"],
-        "Day 3": ["Rialto Bridge"],
-        "Day 4": ["Doge's Palace"],
-        "Day 5": ["Murano"],
-        "Day 6": ["Burano"],
-        "Day 7": ["Peggy Guggenheim Collection"]
-      }
-    },
-    {
-      "name": "Vienna",
-      "country": "Austria",
-      "weather": "Cold",
-      "map": "https://link-to-vienna-map.com",
-      "activities": [
-        "Schonbrunn Palace", "St. Stephen's Cathedral", "Belvedere Palace", "Hofburg Palace", "Prater", "Albertina", "Vienna State Opera"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Schonbrunn Palace"],
-        "Day 2": ["St. Stephen's Cathedral"],
-        "Day 3": ["Belvedere Palace"],
-        "Day 4": ["Hofburg Palace"],
-        "Day 5": ["Prater"],
-        "Day 6": ["Albertina"],
-        "Day 7": ["Vienna State Opera"]
-      }
-    },
-    {
-      "name": "Prague",
-      "country": "Czech Republic",
-      "weather": "Cold",
-      "map": "https://link-to-prague-map.com",
-      "activities": [
-        "Charles Bridge", "Prague Castle", "Old Town Square", "St. Vitus Cathedral", "Wenceslas Square", "Lennon Wall", "Petrin Tower"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Charles Bridge"],
-        "Day 2": ["Prague Castle"],
-        "Day 3": ["Old Town Square"],
-        "Day 4": ["St. Vitus Cathedral"],
-        "Day 5": ["Wenceslas Square"],
-        "Day 6": ["Lennon Wall"],
-        "Day 7": ["Petrin Tower"]
-      }
-    },
-    {
-      "name": "Amsterdam",
-      "country": "Netherlands",
-      "weather": "Cold",
-      "map": "https://link-to-amsterdam-map.com",
-      "activities": [
-        "Van Gogh Museum", "Anne Frank House", "Rijksmuseum", "Canal Cruise", "Vondelpark", "Dam Square", "Heineken Experience"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Van Gogh Museum"],
-        "Day 2": ["Anne Frank House"],
-        "Day 3": ["Rijksmuseum"],
-        "Day 4": ["Canal Cruise"],
-        "Day 5": ["Vondelpark"],
-        "Day 6": ["Dam Square"],
-        "Day 7": ["Heineken Experience"]
-      }
-    },
-    {
-      "name": "Berlin",
-      "country": "Germany",
-      "weather": "Cold",
-      "map": "https://link-to-berlin-map.com",
-      "activities": [
-        "Brandenburg Gate", "Reichstag Building", "Berlin Wall", "Museum Island", "Checkpoint Charlie", "Alexanderplatz", "Berlin Cathedral"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Brandenburg Gate"],
-        "Day 2": ["Reichstag Building"],
-        "Day 3": ["Berlin Wall"],
-        "Day 4": ["Museum Island"],
-        "Day 5": ["Checkpoint Charlie"],
-        "Day 6": ["Alexanderplatz"],
-        "Day 7": ["Berlin Cathedral"]
-      }
-    },
-    {
-      "name": "London",
-      "country": "England",
-      "weather": "Cold",
-      "map": "https://link-to-london-map.com",
-      "activities": [
-        "Big Ben", "London Eye", "Buckingham Palace", "Tower of London", "British Museum", "Hyde Park", "Westminster Abbey"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Big Ben"],
-        "Day 2": ["London Eye"],
-        "Day 3": ["Buckingham Palace"],
-        "Day 4": ["Tower of London"],
-        "Day 5": ["British Museum"],
-        "Day 6": ["Hyde Park"],
-        "Day 7": ["Westminster Abbey"]
-      }
-    },
-    {
-      "name": "Paris",
-      "country": "France",
-      "weather": "Cold",
-      "map": "https://link-to-paris-map.com",
-      "activities": [
-        "Eiffel Tower Visit", "Louvre Museum", "Seine River Cruise", "Notre-Dame Cathedral", "Champs-Élysées", "Montmartre", "Palace of Versailles"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Eiffel Tower Visit"],
-        "Day 2": ["Louvre Museum"],
-        "Day 3": ["Seine River Cruise"],
-        "Day 4": ["Notre-Dame Cathedral"],
-        "Day 5": ["Champs-Élysées"],
-        "Day 6": ["Montmartre"],
-        "Day 7": ["Palace of Versailles"]
-      }
-    },
-    {
-      "name": "Tokyo",
-      "country": "Japan",
-      "weather": "Mild",
-      "map": "https://link-to-tokyo-map.com",
-      "activities": [
-        "Mount Fuji Tour", "Shibuya Crossing", "Sushi Tasting", "Tokyo Tower", "Senso-ji Temple", "Meiji Shrine", "Akihabara"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Mount Fuji Tour"],
-        "Day 2": ["Shibuya Crossing"],
-        "Day 3": ["Sushi Tasting"],
-        "Day 4": ["Tokyo Tower"],
-        "Day 5": ["Senso-ji Temple"],
-        "Day 6": ["Meiji Shrine"],
-        "Day 7": ["Akihabara"]
-      }
-    },
-    {
-      "name": "Sydney",
-      "country": "Australia",
-      "weather": "Hot",
-      "map": "https://link-to-sydney-map.com",
-      "activities": [
-        "Sydney Opera House", "Bondi Beach", "Blue Mountains Tour", "Sydney Harbour Bridge", "Taronga Zoo", "The Rocks", "Manly Beach"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Sydney Opera House"],
-        "Day 2": ["Bondi Beach"],
-        "Day 3": ["Blue Mountains Tour"],
-        "Day 4": ["Sydney Harbour Bridge"],
-        "Day 5": ["Taronga Zoo"],
-        "Day 6": ["The Rocks"],
-        "Day 7": ["Manly Beach"]
-      }
-    },
-    {
-      "name": "Rome",
-      "country": "Italy",
-      "weather": "Hot",
-      "map": "https://link-to-rome-map.com",
-      "activities": [
-        "Colosseum", "Vatican City", "Trevi Fountain", "Pantheon", "Roman Forum", "Piazza Navona", "Spanish Steps"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Colosseum"],
-        "Day 2": ["Vatican City"],
-        "Day 3": ["Trevi Fountain"],
-        "Day 4": ["Pantheon"],
-        "Day 5": ["Roman Forum"],
-        "Day 6": ["Piazza Navona"],
-        "Day 7": ["Spanish Steps"]
-      }
-    },
-    {
-      "name": "Los Angeles",
-      "country": "USA",
-      "weather": "Hot",
-      "map": "https://link-to-los-angeles-map.com",
-      "activities": [
-        "Hollywood Walk of Fame", "Santa Monica Pier", "Universal Studios", "Griffith Observatory", "Rodeo Drive", "Getty Center", "Venice Beach"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Hollywood Walk of Fame"],
-        "Day 2": ["Santa Monica Pier"],
-        "Day 3": ["Universal Studios"],
-        "Day 4": ["Griffith Observatory"],
-        "Day 5": ["Rodeo Drive"],
-        "Day 6": ["Getty Center"],
-        "Day 7": ["Venice Beach"]
-      }
+      "name": "USA",
+      "destinations": [
+        {
+          "name": "Los Angeles",
+          "weather": "Hot",
+          "map": "https://link-to-los-angeles-map.com",
+          "activities": [
+            "Hollywood Walk of Fame", "Santa Monica Pier", "Universal Studios", "Griffith Observatory", "Rodeo Drive", "Getty Center", "Venice Beach"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Hollywood Walk of Fame"],
+            "Day 2": ["Santa Monica Pier"],
+            "Day 3": ["Universal Studios"],
+            "Day 4": ["Griffith Observatory"],
+            "Day 5": ["Rodeo Drive"],
+            "Day 6": ["Getty Center"],
+            "Day 7": ["Venice Beach"]
+          }
+        }
+      ]
     },
     {
       "name": "Thailand",
-      "country": "Thailand",
-      "weather": "Hot",
-      "map": "https://link-to-thailand-map.com",
-      "activities": [
-        "Grand Palace", "Wat Arun", "Chatuchak Weekend Market", "Phi Phi Islands", "Ayutthaya", "Chiang Mai Night Bazaar", "Elephant Sanctuary"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Grand Palace"],
-        "Day 2": ["Wat Arun"],
-        "Day 3": ["Chatuchak Weekend Market"],
-        "Day 4": ["Phi Phi Islands"],
-        "Day 5": ["Ayutthaya"],
-        "Day 6": ["Chiang Mai Night Bazaar"],
-        "Day 7": ["Elephant Sanctuary"]
-      }
+      "destinations": [
+        {
+          "name": "Thailand",
+          "weather": "Hot",
+          "map": "https://link-to-thailand-map.com",
+          "activities": [
+            "Grand Palace", "Wat Arun", "Chatuchak Weekend Market", "Phi Phi Islands", "Ayutthaya", "Chiang Mai Night Bazaar", "Elephant Sanctuary"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Grand Palace"],
+            "Day 2": ["Wat Arun"],
+            "Day 3": ["Chatuchak Weekend Market"],
+            "Day 4": ["Phi Phi Islands"],
+            "Day 5": ["Ayutthaya"],
+            "Day 6": ["Chiang Mai Night Bazaar"],
+            "Day 7": ["Elephant Sanctuary"]
+          }
+        }
+      ]
     },
     {
       "name": "Maldives",
-      "country": "Maldives",
-      "weather": "Hot",
-      "map": "https://link-to-maldives-map.com",
-      "activities": [
-        "Snorkeling", "Scuba Diving", "Relaxing on the Beach", "Island Hopping", "Sunset Cruise", "Water Sports", "Spa Day"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Snorkeling"],
-        "Day 2": ["Scuba Diving"],
-        "Day 3": ["Relaxing on the Beach"],
-        "Day 4": ["Island Hopping"],
-        "Day 5": ["Sunset Cruise"],
-        "Day 6": ["Water Sports"],
-        "Day 7": ["Spa Day"]
-      }
+      "destinations": [
+        {
+          "name": "Maldives",
+          "weather": "Hot",
+          "map": "https://link-to-maldives-map.com",
+          "activities": [
+            "Snorkeling", "Scuba Diving", "Relaxing on the Beach", "Island Hopping", "Sunset Cruise", "Water Sports", "Spa Day"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Snorkeling"],
+            "Day 2": ["Scuba Diving"],
+            "Day 3": ["Relaxing on the Beach"],
+            "Day 4": ["Island Hopping"],
+            "Day 5": ["Sunset Cruise"],
+            "Day 6": ["Water Sports"],
+            "Day 7": ["Spa Day"]
+          }
+        }
+      ]
     },
     {
       "name": "Malaysia",
-      "country": "Malaysia",
-      "weather": "Hot",
-      "map": "https://link-to-malaysia-map.com",
-      "activities": [
-        "Petronas Towers", "Batu Caves", "Langkawi Island", "Cameron Highlands", "Penang Street Art", "Kuala Lumpur Bird Park", "Sunway Lagoon"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Petronas Towers"],
-        "Day 2": ["Batu Caves"],
-        "Day 3": ["Langkawi Island"],
-        "Day 4": ["Cameron Highlands"],
-        "Day 5": ["Penang Street Art"],
-        "Day 6": ["Kuala Lumpur Bird Park"],
-        "Day 7": ["Sunway Lagoon"]
-      }
+      "destinations": [
+        {
+          "name": "Malaysia",
+          "weather": "Hot",
+          "map": "https://link-to-malaysia-map.com",
+          "activities": [
+            "Petronas Towers", "Batu Caves", "Langkawi Island", "Cameron Highlands", "Penang Street Art", "Kuala Lumpur Bird Park", "Sunway Lagoon"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Petronas Towers"],
+            "Day 2": ["Batu Caves"],
+            "Day 3": ["Langkawi Island"],
+            "Day 4": ["Cameron Highlands"],
+            "Day 5": ["Penang Street Art"],
+            "Day 6": ["Kuala Lumpur Bird Park"],
+            "Day 7": ["Sunway Lagoon"]
+          }
+        }
+      ]
     },
     {
       "name": "Singapore",
-      "country": "Singapore",
-      "weather": "Hot",
-      "map": "https://link-to-singapore-map.com",
-      "activities": [
-        "Gardens by the Bay", "Marina Bay Sands", "Chinatown", "Sentosa Island", "Singapore Zoo", "Orchard Road", "Clarke Quay"
-      ],
-      "dayWiseActivities": {
-        "Day 1": ["Gardens by the Bay"],
-        "Day 2": ["Marina Bay Sands"],
-        "Day 3": ["Chinatown"],
-        "Day 4": ["Sentosa Island"],
-        "Day 5": ["Singapore Zoo"],
-        "Day 6": ["Orchard Road"],
-        "Day 7": ["Clarke Quay"]
-      }
+      "destinations": [
+        {
+          "name": "Singapore",
+          "weather": "Hot",
+          "map": "https://link-to-singapore-map.com",
+          "activities": [
+            "Gardens by the Bay", "Marina Bay Sands", "Chinatown", "Sentosa Island", "Singapore Zoo", "Orchard Road", "Clarke Quay"
+          ],
+          "dayWiseActivities": {
+            "Day 1": ["Gardens by the Bay"],
+            "Day 2": ["Marina Bay Sands"],
+            "Day 3": ["Chinatown"],
+            "Day 4": ["Sentosa Island"],
+            "Day 5": ["Singapore Zoo"],
+            "Day 6": ["Orchard Road"],
+            "Day 7": ["Clarke Quay"]
+          }
+        }
+      ]
     }
   ]
 }

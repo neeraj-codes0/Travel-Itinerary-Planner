@@ -63,7 +63,14 @@ async function loadDestinationDetails() {
     try {
         const response = await fetch('Data/destinations.json');
         const data = await response.json();
-        const destination = data.destinations.find(dest => dest.name.toLowerCase().replace(/ /g, '-') === selectedDestination);
+        let destination, countryName;
+        for (const country of data.countries) {
+            destination = country.destinations.find(dest => dest.name.toLowerCase().replace(/ /g, '-') === selectedDestination);
+            if (destination) {
+                countryName = country.name;
+                break;
+            }
+        }
 
         if (!destination) {
             detailsContainer.innerHTML = '<p>Destination details not found.</p>';
@@ -72,7 +79,7 @@ async function loadDestinationDetails() {
 
         detailsContainer.innerHTML = `
             <h3>${destination.name}</h3>
-            <p>Country: ${destination.country}</p>
+            <p>Country: ${countryName}</p>
             <p>Activities: ${destination.activities.join(', ')}</p>
             <p>Weather: ${destination.weather}</p>
             <a href="${destination.map}" target="_blank">View Map</a>
@@ -80,6 +87,9 @@ async function loadDestinationDetails() {
     } catch (error) {
         detailsContainer.innerHTML = '<p>Error fetching destination details.</p>';
     }
+    // Show generate itinerary button after loading details
+    document.getElementById('2').style.display = 'block';
+
 }
 
 // Generate day-wise itinerary for the selected location based on trip duration
@@ -126,7 +136,11 @@ async function generateDayWiseItinerary() {
     try {
         const response = await fetch('Data/destinations.json');
         const data = await response.json();
-        const destination = data.destinations.find(dest => dest.name.toLowerCase().replace(/ /g, '-') === selectedDestination);
+        let destination;
+        for (const country of data.countries) {
+            destination = country.destinations.find(dest => dest.name.toLowerCase().replace(/ /g, '-') === selectedDestination);
+            if (destination) break;
+        }
 
         if (!destination) {
             itineraryContainer.innerHTML = '<p>Destination details not found.</p>';
@@ -149,6 +163,3 @@ async function generateDayWiseItinerary() {
         itineraryContainer.innerHTML = '<p>Error fetching destination details.</p>';
     }
 }
-
-
-
