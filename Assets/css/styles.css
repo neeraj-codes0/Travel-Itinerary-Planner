@@ -8,31 +8,41 @@
 /*Body styling*/
 body {
   background-color:#f8f9fa;
-  color: #333;
+  color: black;
 }
 /* Header */
 header {
-  background-color: #007bff;
-  color: white;
-  padding: 15px;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
 }
+header h1 {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  }
 /* Navigation */
 nav {
+  background-color: #f8f9fa;
   display: flex;
-  justify-content: center;
   gap: 50px;
+  padding: 10px;
+  margin: 10px;
 }
 nav a {
-  color: white;
+  color: aqua;
   text-decoration: none;
+  font-size: 25px;
   font-weight: bold;
   transition: 0.3s;
 }
 nav a:hover {
   text-decoration: underline;
-  color: red
-}
+  color: black;
+} 
 /* Main */
 main {
   display: grid;/* Sidebar(1 fr) and Maincontent(2fr) */
