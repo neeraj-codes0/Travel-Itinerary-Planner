@@ -5,13 +5,13 @@
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
 }
-/*Body styling*/
+/*Body*/
 body {
   background-color: #f8f9fa;
   color: black;
-  font-family: Arial, sans-serif; /* Added font-family for consistency */
+  font-family: Arial, sans-serif;
 }
-/* Header */
+/*Header*/
 header {
   display: flex;
   justify-content: space-between;
@@ -27,7 +27,7 @@ header h1 {
   padding: 10px;
   margin: 10px;
   }
-/* Navigation */
+/*Navigation*/
 nav {
   background-color: #f8f9fa;
   display: flex;
@@ -46,14 +46,14 @@ nav a:hover {
   text-decoration: underline;
   color: black;
 } 
-/* Main */
+/*Main*/
 main {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(7, 1fr);
   gap: 8px;
 }
-/* india-abroad */
+/*India Abroad*/
 #india-abroad {
   background-color: #ffffff;
   padding: 15px;
@@ -72,7 +72,7 @@ main {
   grid-row: span 2 / span 2;
   grid-row-start: 2;
 }
-/*Images*/
+/*Pictures*/
 #pictures {
   display: flex;
   gap: 10px;
@@ -90,7 +90,7 @@ main {
   transform: scale(1.1);
   filter: blur(0);
 }
-/* Destination Selector */
+/*Destination Selector*/
 #destination-selector {
   background-color: #ffffff;
   padding: 15px;
@@ -106,7 +106,7 @@ main {
   width: 50%;
   padding: 5px;
 }
-/* Destination Dropdown */
+/*Destination Dropdown*/
 #destination-dropdown {
   width: 100%;
   padding: 10px;
@@ -119,7 +119,7 @@ main {
 #destination-dropdown:focus {
   transform: scale(1.05);
 }
-/* Itinerary */
+/*Itinerary*/
 #itinerary{
   background-color: #ffffff;
   padding: 15px;
@@ -130,7 +130,7 @@ main {
   grid-column-start: 3;
   grid-row-start: 5;
 }
-/* Destination Details */
+/*Destination Details*/
 #destination-details {
   background-color: #ffffff;
   padding: 15px;
@@ -140,7 +140,7 @@ main {
   grid-row: span 3 / span 3;
   grid-row-start: 5;
 }
-/* Packing Checklist */
+/*Packing Checklist*/
 #packing-checklist {
   background-color: #ffffff;
   padding: 15px;

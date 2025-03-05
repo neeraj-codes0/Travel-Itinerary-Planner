@@ -14,13 +14,14 @@
     <h1>TripTact</h1>
     <nav>
       <a href="about.html" target="_blank">About</a>
-      <a href="contact.html" target="_blank">Contact</a>
+      <a href="contact.html" target="_blank">Contact Us</a>
       <a href="login.html" target="_blank">Sign In</a>
+      <a href="login2.html" target="_blank">Register</a>
     </nav>
   </header>
 
   <main>
-    <section id="india-abroad">
+    <div id="india-abroad">
       <h2>India OR Abroad</h2>
       <input type="radio" id="india" name="india-abroad" value="india" onclick="filterDestinations()">
       <label for="india">India</label>
@@ -28,18 +29,18 @@
       <label for="abroad">Abroad</label>
       <input type="radio" id="both" name="india-abroad" value="both" onclick="filterDestinations()">
       <label for="both">Both</label>
-    </section>
+    </div>
     
-    <section id="travel-dates">
+    <div id="travel-dates">
       <h2>Travel Dates</h2>
       <label for="start-date">Start Date:</label>
       <input type="date" id="start-date" name="start-date" onchange="calculateDays()">
       <label for="end-date">End Date:</label>
       <input type="date" id="end-date" name="end-date" onchange="calculateDays()">
       <p id="number-of-days">Number of days: <span id="days-count">0</span></p>
-    </section>
+    </div>
 
-    <section id="pictures">
+    <div id="pictures">
       <img src="images/Agra.jpg" alt="Agra">
       <img src="images/Jaipur.jpg" alt="Jaipur">
       <img src="images/Kerala.jpg" alt="Kerala">
@@ -48,9 +49,9 @@
       <img src="images/Hadima Temple,Manali.jpg" alt="Hadima Temple,Manali">
       <img src="images/Delhi.jpg" alt="Delhi">
       <img src="images/Dudhsagar Waterfalls,Goa.jpg" alt="Dudhsagar Waterfalls,Goa">
-    </section>
+    </div>
 
-    <section id="destination-selector">
+    <div id="destination-selector">
       <h2>Select Destination</h2>
       <select id="destination-dropdown">
         <option value="none">Select Destination</option>
@@ -93,21 +94,23 @@
         <option value="singapore" data-location="abroad">Singapore</option>
       </select>
       <button id ="1" onclick="loadDestinationDetails()">Load Destination Details</button>
-    </section>
+    </div>
 
-    <section id="destination-details">
+    <div id="destination-details">
       <h2>Destination Details</h2>
       <div id="destination-details-content">
       </div>
       <button id ="2" style="display: none;" onclick="generateDayWiseItinerary()">Generate Day-wise Itinerary</button>
-    </section>
+    </div>
 
-    <section id="itinerary">
+    <div id="itinerary">
       <h2>Your Itinerary</h2>
-      <div id="itinerary-content"></div>
+      <div id="itinerary-content">
+      </div>
+    </div>  
     </section>
 
-    <section id="packing-checklist">
+    <div id="packing-checklist">
       <h2>Your Packing Checklist</h2>
       <ul id="packing-checklist-content">
         <li>Passport</li>
@@ -122,7 +125,7 @@
         <li>Chargers</li>
         <li>Camera</li>
       </ul>
-    </section>
+    </div>
   </main>
 </body>  
 <footer>
