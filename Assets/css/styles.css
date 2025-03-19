@@ -2,40 +2,35 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'Arial', sans-serif;
-}
-/*Body*/
-body {
-  background-image: url("images/background3.jpg");
-  font-family: Arial, sans-serif;
 }
 /*Header*/
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 5px;
-  grid-column: span 5 / span 5;
-  
+  border-color: black;
 }
 header h1 {
-  background-color: black;
-  color: white;
-  border-radius: 15px;
-  padding: 10px;
-  margin: 10px;
+  display: block;
+  background: none;
+  color: black;
+  border-color: black;
+  border-radius: 25px;
+  padding: 15px;
+  margin-left: 10px;
   }
 /*Navigation*/
 nav {
-  background-color: #f8f9fa;
   display: flex;
-  gap: 50px;
-  padding: 10px;
-  margin: 10px;
+  gap: 40px;
 }
 nav a {
-  color: aqua;
+  color : black;
+  border-color: black;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
@@ -54,7 +49,6 @@ main {
 }
 /*India Abroad*/
 #india-abroad {
-  background-color: #ffffff;
   padding: 15px;
   border-radius: 5px;
   text-align: center;
@@ -64,7 +58,6 @@ main {
 }
 /*Travel Dates*/
 #travel-dates {
-  background-color: #ffffff;
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -91,7 +84,6 @@ main {
 }
 /*Destination Selector*/
 #destination-selector {
-  background-color: #ffffff;
   padding: 15px;
   border-radius: 5px;
   text-align: center;
@@ -120,7 +112,6 @@ main {
 }
 /*Itinerary*/
 #itinerary{
-  background-color: #ffffff;
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -131,7 +122,6 @@ main {
 }
 /*Destination Details*/
 #destination-details {
-  background-color: #ffffff;
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -141,7 +131,6 @@ main {
 }
 /*Packing Checklist*/
 #packing-checklist {
-  background-color: #ffffff;
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
