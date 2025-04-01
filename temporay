@@ -1,0 +1,141 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  /*Header*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    display: block;
+    background: none;
+    color: black;
+    border-color: black;
+    border-radius: 25px;
+    padding: 15px;
+    margin-left: 10px;
+    }
+  /*Navigation*/
+  nav {
+    display: flex;
+    gap: 40px;
+  }
+  nav a {
+    color : black;
+    border-color: black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  nav a:hover {
+    color: rgb(23, 152, 232);;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out color 0.3s ease-in-out;
+  } 
+  /*Main*/
+  main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 8px;
+  }
+  /*India Abroad*/
+  #india-abroad {
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    grid-row: span 2 / span 2;
+    grid-row-start: 2;
+  }
+  /*Travel Dates*/
+  #travel-dates {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    grid-row: span 2 / span 2;
+    grid-row-start: 2;
+  }
+  /*Pictures*/
+  #pictures {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    grid-column: span 5 / span 5;
+    grid-row-start: 4;
+  }
+  #pictures img {
+    height: 200px;
+    width: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: blur(2px);
+  }
+  #pictures img:hover {
+    transform: scale(1.1);
+    filter: blur(0);
+  }
+  /*Destination Selector*/
+  #destination-selector {
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-row-start: 2;
+  }
+  #destination-selector button {
+    margin: 10px;
+    width: 50%;
+    padding: 5px;
+  }
+  /*Destination Dropdown*/
+  #destination-dropdown {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  #destination-dropdown:focus {
+    transform: scale(1.05);
+  }
+  /*Itinerary*/
+  #itinerary{
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 5;
+  }
+  /*Destination Details*/
+  #destination-details {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-row-start: 5;
+  }
+  /*Packing Checklist*/
+  #packing-checklist {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    grid-row: span 3 / span 3;
+    grid-column-start: 5;
+    grid-row-start: 5;
+  }
+  
