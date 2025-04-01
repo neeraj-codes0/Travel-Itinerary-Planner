@@ -7,63 +7,78 @@
     <title>Contact Us</title>
     <style>
         body {
-            background: url("images/background.jpg");
-            font-family: Arial, sans-serif;
+            background: url("images/background2.jpg");
+            background-size: cover;
+            background-attachment: fixed;
             text-align: center;
-            line-height: 1.5;
         }
-        h1 {
-            color: rgb(68, 39, 39);
+        h1{
+            text-align: center;
+            font-weight: bold;
             font-size: 50px;
-            margin-top: 20px;
         }
-        h2 {
-            color: rgba(75, 52, 6, 0.888);
+        h2{
+            text-align: center;
+            font-weight: bold;
             font-size: 30px;
-            margin-top: 10px;
         }
         form {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             display: inline-block;
-            text-align: left;
-            margin-top: 20px;
+            margin: 20px auto;
+            padding: 40px 60px;
+            width: 80%;
+            max-width: 600px;
         }
         label {
             display: block;
-            margin: 10px 0 5px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: left;
         }
         input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
+            border: 1px solid #ccc;
             border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+            margin-bottom: 20px;
+            padding: 10px;
+            width: 100%;
         }
         button {
             background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
             border: none;
             border-radius: 5px;
+            color: white;
             cursor: pointer;
+            font-size: 16px;
+            padding: 10px 20px;
+            text-align: center;
         }
         button:hover {
             background-color: #45a049;
+        }
+        footer p
+        {
+            text-align: left;
+            padding: 0px;
+            margin: 0px;
         }
     </style>
 </head>
 
 <body>
     <h1>Contact Us</h1>
-    <h2>We'd love to hear from you!</h2>
     <form>
+        <h2>We'd love to hear from you!</h2>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
+        <label for="mobile">Mobile:</label>
+        <input type="number" id="mobile" name="mobile" required>
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="10" required></textarea>
         <button type="submit">Submit</button>

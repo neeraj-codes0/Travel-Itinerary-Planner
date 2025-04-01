@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <style>
+        body {
+            background: url("images/background2.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+        }
+        .register-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            margin: 20px auto;
+            padding: 40px 60px;
+            width: 80%;
+            max-width: 600px;
+        }
+        h1{
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        input,textarea {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+            margin-bottom: 20px;
+            padding: 10px;
+            width: 100%;
+        }
+        input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+        button{
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        button:hover{
+            background-color: #45a049;
+        }
+        footer p
+        {
+            text-align: left;
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="register-container">
+        <h1>Register</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mobile">Mobile:</label>
+            <input type="number" id="mobile" name="mobile" required>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <label for="terms-and-conditions">
+            <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" required">I agree to the <a href="">Terms</a> and <a href="">Conditions</a></label>
+        </form>
+        <button type="submit">Sign Up</button>
+    </div>
+</body>
+<footer>
+    <p>&copy; 2025 Travel Itinerary Planner-Made by Neeraj and Dolcy.</p>
+</footer>
+</html>

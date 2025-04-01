@@ -1,101 +1,121 @@
-/* Reset default styles */
+/*Reset default styles*/
 * {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /*Header*/
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  border-color: black;
+  padding-bottom: 20px;
 }
 header h1 {
-  display: block;
-  background: none;
-  color: black;
-  border-color: black;
-  border-radius: 25px;
-  padding: 15px;
-  margin-left: 10px;
-  }
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 30px;
+}
 /*Navigation*/
 nav {
   display: flex;
   gap: 40px;
 }
 nav a {
-  color : black;
+  color: black;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 30px;
   border-color: black;
-  border-radius: 25px;
-  padding: 10px;
-  margin: 10px;
+  border: 2.5px solid black;
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
   transition: 0.3s;
 }
 nav a:hover {
-  text-decoration: underline;
-  color: black;
-} 
+  color: rgb(23, 152, 232);
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out color 0.3s ease-in-out;
+}
 /*Main*/
 main {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(10, 1fr);
   gap: 8px;
 }
 /*India Abroad*/
-#india-abroad {
-  padding: 15px;
+#india-abroad{
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  padding: 25px;
   border-radius: 5px;
   text-align: center;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  grid-row: span 2 / span 2;
-  grid-row-start: 2;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: o 4px 6px rgba(0, 0, 0, 0.1);
 }
 /*Travel Dates*/
 #travel-dates {
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  grid-column: span 2 / span 2;
   grid-row: span 2 / span 2;
-  grid-row-start: 2;
+  grid-column-start: 3;
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 /*Pictures*/
 #pictures {
+  grid-column: span 4 / span 4;
+  grid-row: span 2 / span 2;
+  grid-row-start: 3;
   display: flex;
   gap: 10px;
-  padding: 10px;
-  grid-column: span 5 / span 5;
-  grid-row-start: 4;
+  padding: 25px;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: auto; /* Prevents images from moving outside the container */
 }
+
 #pictures img {
   height: 200px;
   width: auto;
   transition: transform 0.3s ease, filter 0.3s ease;
   filter: blur(2px);
 }
+
 #pictures img:hover {
   transform: scale(1.1);
   filter: blur(0);
 }
+
 /*Destination Selector*/
 #destination-selector {
-  padding: 15px;
-  border-radius: 5px;
+  grid-row: span 3 / span 3;
+  grid-row-start: 5;
+  padding: 25px;
   text-align: center;
+  border-radius: 5px;
+  border: 2px solid black;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  grid-column: span 3 / span 3;
-  grid-row: span 2 / span 2;
-  grid-row-start: 2;
 }
 #destination-selector button {
-  margin: 10px;
-  width: 50%;
-  padding: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
 }
 /*Destination Dropdown*/
 #destination-dropdown {
@@ -110,31 +130,39 @@ main {
 #destination-dropdown:focus {
   transform: scale(1.05);
 }
-/*Itinerary*/
-#itinerary{
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  grid-column: span 2 / span 2;
-  grid-row: span 3 / span 3;
-  grid-column-start: 3;
-  grid-row-start: 5;
-}
 /*Destination Details*/
 #destination-details {
-  padding: 15px;
+  grid-column: span 3 / span 3;
+  grid-row: span 3 / span 3;
+  grid-row-start: 5;  
+  padding: 25px;
+  text-align: center;
   border-radius: 5px;
+  border: 2px solid black;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/*Itinerary*/
+#itinerary{
   grid-column: span 2 / span 2;
   grid-row: span 3 / span 3;
-  grid-row-start: 5;
+  grid-row-start: 8;
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 /*Packing Checklist*/
 #packing-checklist {
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  grid-column: span 2 / span 2;
   grid-row: span 3 / span 3;
-  grid-column-start: 5;
-  grid-row-start: 5;
+  grid-column-start: 3;
+  grid-row-start: 8;
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+
