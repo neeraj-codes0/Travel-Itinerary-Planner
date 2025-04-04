@@ -9,7 +9,7 @@
         body {
             background: url("images/background2.jpg");
             background-size: cover;
-            background-attachment: fixed;
+            background-attachment: scroll;
             text-align: center;
         }
         h1{
@@ -60,6 +60,9 @@
         button:hover {
             background-color: #45a049;
         }
+        #contact-info {
+            background-color: white;
+        }
         footer p
         {
             text-align: left;
@@ -70,7 +73,7 @@
 </head>
 
 <body>
-    <h1>Contact Us</h1>
+    <h1>Contact and Feedback</h1>
     <form>
         <h2>We'd love to hear from you!</h2>
         <label for="name">Name:</label>
@@ -83,6 +86,15 @@
         <textarea id="message" name="message" rows="10" required></textarea>
         <button type="submit">Submit</button>
     </form>
+<div id="contact-info">
+    <h2>Our Contact Information</h2>
+    <p>If you have any questions or need assistance, feel free to reach out to us:</p>
+    <p>Phone: 123-456-7890</p>
+    <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+    <p>Address: 123 Travel Lane, City, India</p>
+    <p>Follow us on social media:</p>
+    <p><a href="https://www.facebook.com" target="_blank">Facebook</a> | <a href="https://www.twitter.com" target="_blank">Twitter</a> | <a href="https://www.instagram.com" target="_blank">Instagram</a></p>
+</div>
 </body>
 <footer>
     <p>&copy; 2025 Travel Itinerary Planner-Made by Neeraj and Dolcy.</p>

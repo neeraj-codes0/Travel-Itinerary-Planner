@@ -16,7 +16,7 @@
   }
   /*Welcome*/
   #welcome {
-    background: url("images/background2.jpg") no-repeat center center;
+    background: url("images/background3.jpg") no-repeat center center;
     background-size: cover; /* Ensures the full image is visible */
     background-attachment: scroll;
     height: 100vh; /* Adjust height to fit the viewport */
@@ -24,6 +24,7 @@
     flex-direction: column;
     justify-content: top;
     align-items: center;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   }
   #welcome h2{
     font-size: 3em;
@@ -36,6 +37,11 @@
     color: black;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 2;
+    font-weight: bold;
   }
   #welcome button{
     display: block;
@@ -62,7 +68,8 @@
     <h1>TripTact</h1>
     <nav>
       <a href="about.html" target="_blank">About</a>
-      <a href="contact.html" target="_blank">Contact Us</a>
+      <a href="login.html" target="_blank">Your Plans</a>
+      <a href="contact.html" target="_blank">Contact and Feedback</a>
       <a href="login.html" target="_blank">Sign In</a>
       <a href="login2.html" target="_blank">Register</a>
     </nav>
@@ -70,7 +77,9 @@
 
     <div id="welcome">
       <h2>Welcome User</h2>
-      <p>Plan your travel itinerary with us. Select your destination, travel dates<br>and get a day-wise itinerary and packing checklist.</p>
+      <p>Planning your travels with an itinerary planner can transform your trip into a smooth and enjoyable experience.<br> These tools act as your personal travel assistant, helping you organize every detail—like destinations, activities, accommodations, and transport options—all in one convenient place. <br>
+        Whether you're into exploring bustling cities, relaxing on tropical beaches, or chasing adventure in the wild, itinerary planners can help you customize and optimize your journey.<br> They even allow you to manage time efficiently so you don’t miss out on any must-see spots.<br>
+        Are you looking to plan a specific trip?<br> I'd be thrilled to help you get started! Where are you thinking of going? 🗺️✨<br>and get a day-wise itinerary and packing checklist.</p>
       <button onclick="document.getElementById('india-abroad').scrollIntoView({ behavior: 'smooth' });">Explore Now</button>
     </div>
     

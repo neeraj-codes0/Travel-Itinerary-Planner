@@ -18,11 +18,12 @@ header h1 {
   color: white;
   padding: 15px 25px;
   border-radius: 30px;
+  font-size: 30px;
 }
 /*Navigation*/
 nav {
   display: flex;
-  gap: 40px;
+  gap: 10px;
 }
 nav a {
   color: black;
@@ -56,7 +57,7 @@ main {
   border-radius: 5px;
   text-align: center;
   border-radius: 5px;
-  border: 2px solid black;
+  border: 4px solid black;
   box-shadow: o 4px 6px rgba(0, 0, 0, 0.1);
 }
 /*Travel Dates*/
@@ -67,7 +68,7 @@ main {
   padding: 25px;
   text-align: center;
   border-radius: 5px;
-  border: 2px solid black;
+  border: 4px solid black;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 /*Pictures*/
@@ -77,9 +78,9 @@ main {
   grid-row-start: 3;
   display: flex;
   gap: 10px;
-  padding: 25px;
+  padding: 50px;
   border-radius: 5px;
-  border: 2px solid black;
+  border: 4px solid black;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: auto; /* Prevents images from moving outside the container */
 }
@@ -92,7 +93,7 @@ main {
 }
 
 #pictures img:hover {
-  transform: scale(1.1);
+  transform: scale(1.5);
   filter: blur(0);
 }
 
@@ -103,7 +104,7 @@ main {
   padding: 25px;
   text-align: center;
   border-radius: 5px;
-  border: 2px solid black;
+  border: 4px solid black;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 #destination-selector button {
@@ -138,7 +139,7 @@ main {
   padding: 25px;
   text-align: center;
   border-radius: 5px;
-  border: 2px solid black;
+  border: 4px solid black;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 /*Itinerary*/
@@ -149,7 +150,7 @@ main {
   padding: 25px;
   text-align: center;
   border-radius: 5px;
-  border: 2px solid black;
+  border: 4px solid black;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 /*Packing Checklist*/
@@ -161,7 +162,7 @@ main {
   padding: 25px;
   text-align: center;
   border-radius: 5px;
-  border: 2px solid black;
+  border: 4px solid black;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
