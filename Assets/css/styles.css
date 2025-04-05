@@ -23,7 +23,6 @@ header h1 {
 /*Navigation*/
 nav {
   display: flex;
-  gap: 10px;
 }
 nav a {
   color: black;
@@ -47,7 +46,7 @@ main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(10, 1fr);
-  gap: 8px;
+  gap: 20px;
 }
 /*India Abroad*/
 #india-abroad{
@@ -58,7 +57,18 @@ main {
   text-align: center;
   border-radius: 5px;
   border: 4px solid black;
-  box-shadow: o 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.2);
+}
+#india-abroad h2 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#india-abroad label{
+  font-size: 20px;
+  color: black;
+  text-align: center;
 }
 /*Travel Dates*/
 #travel-dates {
@@ -69,7 +79,28 @@ main {
   text-align: center;
   border-radius: 5px;
   border: 4px solid black;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.2);
+}
+#travel-dates h2 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#travel-dates label {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+#travel-dates p {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+#travel-dates input[type="date"] {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
 }
 /*Pictures*/
 #pictures {
@@ -81,31 +112,38 @@ main {
   padding: 50px;
   border-radius: 5px;
   border: 4px solid black;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.2);
   overflow: auto; /* Prevents images from moving outside the container */
 }
-
 #pictures img {
   height: 200px;
   width: auto;
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition: transform 0.3s ease, filter 0.3s ease, z-index 0.3s ease;
   filter: blur(2px);
+  position: relative;
+  z-index: 1;
 }
-
 #pictures img:hover {
   transform: scale(1.5);
   filter: blur(0);
+  z-index: 10; /* Bring the focused image to the front */
 }
-
 /*Destination Selector*/
 #destination-selector {
   grid-row: span 3 / span 3;
+  grid-column: span 2 / span 2;
   grid-row-start: 5;
   padding: 25px;
   text-align: center;
   border-radius: 5px;
   border: 4px solid black;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.2);
+}
+#destination-selector h2 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
 }
 #destination-selector button {
   display: block;
@@ -116,7 +154,6 @@ main {
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-
 }
 /*Destination Dropdown*/
 #destination-dropdown {
@@ -127,20 +164,40 @@ main {
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  margin-bottom: 30px;
 }
 #destination-dropdown:focus {
   transform: scale(1.05);
 }
 /*Destination Details*/
 #destination-details {
-  grid-column: span 3 / span 3;
+  grid-column: span 2 / span 2;
   grid-row: span 3 / span 3;
   grid-row-start: 5;  
   padding: 25px;
   text-align: center;
   border-radius: 5px;
   border: 4px solid black;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.2);
+}
+#destination-details h2 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#destination-details-content{
+  margin-bottom: 30px;
+}
+#destination-details button{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 /*Itinerary*/
 #itinerary{
@@ -151,7 +208,13 @@ main {
   text-align: center;
   border-radius: 5px;
   border: 4px solid black;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.2);
+}
+#itinerary h2 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
 }
 /*Packing Checklist*/
 #packing-checklist {
@@ -163,7 +226,18 @@ main {
   text-align: center;
   border-radius: 5px;
   border: 4px solid black;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.2);
+}
+#packing-checklist h2 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.location-data{
+  text-align: center;
+  border-radius: 5px;
+  border: 4px solid black;
 }
 
 
