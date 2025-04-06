@@ -6,7 +6,7 @@
         {
           "name": "Agra",
           "weather": "Hot",
-          "map": "https://link-to-agra-map.com",
+          "map": "https://www.google.com/maps/place/Agra",
           "activities": [
             "Taj Mahal", "Agra Fort", "Fatehpur Sikri", "Mehtab Bagh", "Itmad-ud-Daula", "Akbar's Tomb", "Jama Masjid"
           ],
@@ -23,7 +23,7 @@
         {
           "name": "Jaipur",
           "weather": "Hot",
-          "map": "https://link-to-jaipur-map.com",
+          "map": "https://www.google.com/maps/place/Jaipur",
           "activities": [
             "Amber Fort", "City Palace", "Jantar Mantar", "Hawa Mahal", "Jal Mahal", "Nahargarh Fort", "Albert Hall Museum"
           ],
@@ -40,7 +40,7 @@
         {
           "name": "Kerala",
           "weather": "Hot",
-          "map": "https://link-to-kerala-map.com",
+          "map": "https://www.google.com/maps/place/Kerala",
           "activities": [
             "Backwaters Tour", "Kathakali Show", "Tea Plantation Visit", "Munnar", "Periyar Wildlife Sanctuary", "Kumarakom Bird Sanctuary", "Varkala Beach"
           ],
@@ -57,7 +57,7 @@
         {
           "name": "Ladakh",
           "weather": "Cold",
-          "map": "https://link-to-ladakh-map.com",
+          "map": "https://www.google.com/maps/place/Ladakh",
           "activities": [
             "Pangong Lake", "Nubra Valley", "Leh Palace", "Thiksey Monastery", "Hemis Monastery", "Shanti Stupa", "Magnetic Hill"
           ],
@@ -74,7 +74,7 @@
         {
           "name": "Andaman-nicobar",
           "weather": "Hot",
-          "map": "https://link-to-andaman-map.com",
+          "map": "https://www.google.com/maps/place/Andaman+and+Nicobar+Islands",
           "activities": [
             "Snorkeling", "Scuba Diving", "Elephant Beach", "Radhanagar Beach", "Cellular Jail", "Ross Island", "Baratang Island"
           ],
@@ -91,7 +91,7 @@
         {
           "name": "Shimla",
           "weather": "Cold",
-          "map": "https://link-to-shimla-map.com",
+          "map": "https://www.google.com/maps/place/Shimla",
           "activities": [
             "Mall Road", "Jakhoo Temple", "Kufri", "Christ Church", "The Ridge", "Summer Hill", "Tara Devi Temple"
           ],
@@ -108,7 +108,7 @@
         {
           "name": "Manali",
           "weather": "Cold",
-          "map": "https://link-to-manali-map.com",
+          "map": "https://www.google.com/maps/place/Manali",
           "activities": [
             "Solang Valley", "Rohtang Pass", "Hadimba Temple", "Manu Temple", "Vashisht Hot Water Springs", "Old Manali", "Jogini Waterfall"
           ],
@@ -125,7 +125,7 @@
         {
           "name": "Uttrakhand",
           "weather": "Cold",
-          "map": "https://link-to-uttarakhand-map.com",
+          "map": "https://www.google.com/maps/place/Uttrakhand",
           "activities": [
             "Nainital", "Jim Corbett National Park", "Rishikesh", "Haridwar", "Mussoorie", "Auli", "Badrinath"
           ],
@@ -142,7 +142,7 @@
         {
           "name": "Delhi",
           "weather": "Hot",
-          "map": "https://link-to-delhi-map.com",
+          "map": "https://www.google.com/maps/place/Delhi",
           "activities": [
             "Red Fort", "Qutub Minar", "India Gate", "Lotus Temple", "Humayun's Tomb", "Chandni Chowk", "Rashtrapati Bhavan"
           ],
@@ -159,7 +159,7 @@
         {
           "name": "Goa",
           "weather": "Hot",
-          "map": "https://link-to-goa-map.com",
+          "map": "https://www.google.com/maps/place/Goa",
           "activities": [
             "Beach Party", "Dudhsagar Waterfall", "Basilica of Bom Jesus", "Anjuna Beach", "Fort Aguada", "Calangute Beach", "Baga Beach"
           ],
@@ -176,7 +176,7 @@
         {
           "name": "Kashmir",
           "weather": "Cold",
-          "map": "https://link-to-kashmir-map.com",
+          "map": "https://www.google.com/maps/place/Kashmir",
           "activities": [
             "Dal Lake", "Shalimar Bagh", "Gulmarg", "Sonamarg", "Pahalgam", "Mughal Gardens", "Betaab Valley"
           ],
@@ -193,7 +193,7 @@
         {
           "name": "Kolkata",
           "weather": "Hot",
-          "map": "https://link-to-kolkata-map.com",
+          "map": "https://www.google.com/maps/place/Kolkata",
           "activities": [
             "Victoria Memorial", "Howrah Bridge", "Indian Museum", "Dakshineswar Kali Temple", "Eden Gardens", "Birla Planetarium", "Science City"
           ],
@@ -210,7 +210,7 @@
         {
           "name": "Mumbai",
           "weather": "Hot",
-          "map": "https://link-to-mumbai-map.com",
+          "map": "https://www.google.com/maps/place/Mumbai",
           "activities": [
             "Gateway of India", "Marine Drive", "Elephanta Caves", "Chhatrapati Shivaji Maharaj Terminus", "Haji Ali Dargah", "Siddhivinayak Temple", "Juhu Beach"
           ],
@@ -227,7 +227,7 @@
         {
           "name": "Bangalore",
           "weather": "Hot",
-          "map": "https://link-to-bangalore-map.com",
+          "map": "https://www.google.com/maps/place/Bangalore",
           "activities": [
             "Lalbagh Botanical Garden", "Bangalore Palace", "Cubbon Park", "Bannerghatta National Park", "ISKCON Temple", "Commercial Street", "Wonderla"
           ],
@@ -244,7 +244,7 @@
         {
           "name": "Chennai",
           "weather": "Hot",
-          "map": "https://link-to-chennai-map.com",
+          "map": "https://www.google.com/maps/place/Chennai",
           "activities": [
             "Marina Beach", "Kapaleeshwarar Temple", "Fort St. George", "Santhome Cathedral", "Guindy National Park", "Valluvar Kottam", "Elliot's Beach"
           ],
@@ -266,7 +266,7 @@
         {
           "name": "Dubai",
           "weather": "Hot",
-          "map": "https://link-to-dubai-map.com",
+          "map": "https://www.google.com/maps/place/Dubai",
           "activities": [
             "Burj Khalifa", "Desert Safari", "Dubai Mall", "Palm Jumeirah", "Dubai Marina", "Dubai Fountain", "Burj Al Arab"
           ],
@@ -288,7 +288,7 @@
         {
           "name": "Cairo",
           "weather": "Hot",
-          "map": "https://link-to-cairo-map.com",
+          "map": "https://www.google.com/maps/place/Cairo",
           "activities": [
             "Pyramids of Giza", "Khan el-Khalili", "Nile River Cruise", "Egyptian Museum", "Coptic Cairo", "Al-Azhar Park", "Citadel of Saladin"
           ],
@@ -310,7 +310,7 @@
         {
           "name": "Istanbul",
           "weather": "Mild",
-          "map": "https://link-to-istanbul-map.com",
+          "map": "https://www.google.com/maps/place/Istanbul",
           "activities": [
             "Hagia Sophia", "Blue Mosque", "Grand Bazaar", "Topkapi Palace", "Basilica Cistern", "Galata Tower", "Dolmabahce Palace"
           ],
@@ -332,7 +332,7 @@
         {
           "name": "Barcelona",
           "weather": "Mild",
-          "map": "https://link-to-barcelona-map.com",
+          "map": "https://www.google.com/maps/place/Barcelona",
           "activities": [
             "Sagrada Familia", "Park Guell", "La Rambla", "Gothic Quarter", "Casa Batllo", "Montjuic", "Camp Nou"
           ],
@@ -354,7 +354,7 @@
         {
           "name": "Venice",
           "weather": "Cold",
-          "map": "https://link-to-venice-map.com",
+          "map": "https://www.google.com/maps/place/Venice",
           "activities": [
             "Gondola Ride", "St. Mark's Basilica", "Rialto Bridge", "Doge's Palace", "Murano", "Burano", "Peggy Guggenheim Collection"
           ],
@@ -371,7 +371,7 @@
         {
           "name": "Rome",
           "weather": "Hot",
-          "map": "https://link-to-rome-map.com",
+          "map": "https://www.google.com/maps/place/Rome",
           "activities": [
             "Colosseum", "Vatican City", "Trevi Fountain", "Pantheon", "Roman Forum", "Piazza Navona", "Spanish Steps"
           ],
@@ -393,7 +393,7 @@
         {
           "name": "Vienna",
           "weather": "Cold",
-          "map": "https://link-to-vienna-map.com",
+          "map": "https://www.google.com/maps/place/Vienna",
           "activities": [
             "Schonbrunn Palace", "St. Stephen's Cathedral", "Belvedere Palace", "Hofburg Palace", "Prater", "Albertina", "Vienna State Opera"
           ],
@@ -415,7 +415,7 @@
         {
           "name": "Prague",
           "weather": "Cold",
-          "map": "https://link-to-prague-map.com",
+          "map": "https://www.google.com/maps/place/Prague",
           "activities": [
             "Charles Bridge", "Prague Castle", "Old Town Square", "St. Vitus Cathedral", "Wenceslas Square", "Lennon Wall", "Petrin Tower"
           ],
@@ -437,7 +437,7 @@
         {
           "name": "Amsterdam",
           "weather": "Cold",
-          "map": "https://link-to-amsterdam-map.com",
+          "map": "https://www.google.com/maps/place/Amsterdam",
           "activities": [
             "Van Gogh Museum", "Anne Frank House", "Rijksmuseum", "Canal Cruise", "Vondelpark", "Dam Square", "Heineken Experience"
           ],
@@ -459,7 +459,7 @@
         {
           "name": "Berlin",
           "weather": "Cold",
-          "map": "https://link-to-berlin-map.com",
+          "map": "https://www.google.com/maps/place/Berlin",
           "activities": [
             "Brandenburg Gate", "Reichstag Building", "Berlin Wall", "Museum Island", "Checkpoint Charlie", "Alexanderplatz", "Berlin Cathedral"
           ],
@@ -481,7 +481,7 @@
         {
           "name": "London",
           "weather": "Cold",
-          "map": "https://link-to-london-map.com",
+          "map": "https://www.google.com/maps/place/London",
           "activities": [
             "Big Ben", "London Eye", "Buckingham Palace", "Tower of London", "British Museum", "Hyde Park", "Westminster Abbey"
           ],
@@ -503,7 +503,7 @@
         {
           "name": "Paris",
           "weather": "Cold",
-          "map": "https://link-to-paris-map.com",
+          "map": "https://www.google.com/maps/place/Paris",
           "activities": [
             "Eiffel Tower Visit", "Louvre Museum", "Seine River Cruise", "Notre-Dame Cathedral", "Champs-Élysées", "Montmartre", "Palace of Versailles"
           ],
@@ -525,7 +525,7 @@
         {
           "name": "Tokyo",
           "weather": "Mild",
-          "map": "https://link-to-tokyo-map.com",
+          "map": "https://www.google.com/maps/place/Tokyo",
           "activities": [
             "Mount Fuji Tour", "Shibuya Crossing", "Sushi Tasting", "Tokyo Tower", "Senso-ji Temple", "Meiji Shrine", "Akihabara"
           ],
@@ -547,7 +547,7 @@
         {
           "name": "Sydney",
           "weather": "Hot",
-          "map": "https://link-to-sydney-map.com",
+          "map": "https://www.google.com/maps/place/Sydney",
           "activities": [
             "Sydney Opera House", "Bondi Beach", "Blue Mountains Tour", "Sydney Harbour Bridge", "Taronga Zoo", "The Rocks", "Manly Beach"
           ],
@@ -569,7 +569,7 @@
         {
           "name": "Los Angeles",
           "weather": "Hot",
-          "map": "https://link-to-los-angeles-map.com",
+          "map": "https://www.google.com/maps/place/Los+Angeles",
           "activities": [
             "Hollywood Walk of Fame", "Santa Monica Pier", "Universal Studios", "Griffith Observatory", "Rodeo Drive", "Getty Center", "Venice Beach"
           ],
@@ -591,7 +591,7 @@
         {
           "name": "Thailand",
           "weather": "Hot",
-          "map": "https://link-to-thailand-map.com",
+          "map": "https://www.google.com/maps/place/thailand",
           "activities": [
             "Grand Palace", "Wat Arun", "Chatuchak Weekend Market", "Phi Phi Islands", "Ayutthaya", "Chiang Mai Night Bazaar", "Elephant Sanctuary"
           ],
@@ -613,7 +613,7 @@
         {
           "name": "Maldives",
           "weather": "Hot",
-          "map": "https://link-to-maldives-map.com",
+          "map": "https://www.google.com/maps/place/Maldives",
           "activities": [
             "Snorkeling", "Scuba Diving", "Relaxing on the Beach", "Island Hopping", "Sunset Cruise", "Water Sports", "Spa Day"
           ],
@@ -635,7 +635,7 @@
         {
           "name": "Malaysia",
           "weather": "Hot",
-          "map": "https://link-to-malaysia-map.com",
+          "map": "https://www.google.com/maps/place/Malaysia",
           "activities": [
             "Petronas Towers", "Batu Caves", "Langkawi Island", "Cameron Highlands", "Penang Street Art", "Kuala Lumpur Bird Park", "Sunway Lagoon"
           ],
@@ -657,7 +657,7 @@
         {
           "name": "Singapore",
           "weather": "Hot",
-          "map": "https://link-to-singapore-map.com",
+          "map": "https://www.google.com/maps/place/singapore",
           "activities": [
             "Gardens by the Bay", "Marina Bay Sands", "Chinatown", "Sentosa Island", "Singapore Zoo", "Orchard Road", "Clarke Quay"
           ],
