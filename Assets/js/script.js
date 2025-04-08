@@ -169,7 +169,7 @@ async function generateDayWiseItinerary() {
 async function displayLocationInfo() {
     const dropdown = document.getElementById('destination-dropdown');
     const selectedDestination = dropdown.value;
-    const locationInfoContainer = document.querySelector('.location-info');
+    const locationInfoContainer = document.querySelector('.location-data');
 
     if (selectedDestination === 'none') {
         locationInfoContainer.innerHTML = '<p>Please select a destination.</p>';

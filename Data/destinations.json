@@ -19,7 +19,7 @@
             "Day 6": ["Akbar's Tomb"],
             "Day 7": ["Jama Masjid"]
           },
-          "description":"Abc"
+          "description": "Agra is home to the iconic Taj Mahal, a UNESCO World Heritage Site and one of the Seven Wonders of the World. The city also boasts impressive Mughal architecture, including Agra Fort and Fatehpur Sikri."
         },
         {
           "name": "Jaipur",
@@ -36,7 +36,8 @@
             "Day 5": ["Jal Mahal"],
             "Day 6": ["Nahargarh Fort"],
             "Day 7": ["Albert Hall Museum"]
-          }
+          },
+          "description": "Jaipur is a vibrant city known for its stunning architecture, rich history, and colorful markets. The Pink City is famous for its forts, palaces, and the unique Hawa Mahal, also known as the Palace of Winds."
         },
         {
           "name": "Kerala",
@@ -53,7 +54,8 @@
             "Day 5": ["Periyar Wildlife Sanctuary"],
             "Day 6": ["Kumarakom Bird Sanctuary"],
             "Day 7": ["Varkala Beach"]
-          }
+          },
+          "description": "Kerala is a tropical paradise known for its serene backwaters, lush tea plantations, and rich cultural heritage. Visitors can enjoy houseboat rides, traditional dance performances, and explore the stunning landscapes of Munnar and Periyar."
         },
         {
           "name": "Ladakh",
@@ -70,7 +72,8 @@
             "Day 5": ["Hemis Monastery"],
             "Day 6": ["Shanti Stupa"],
             "Day 7": ["Magnetic Hill"]
-          }
+          },
+          "description": "Ladakh is a breathtakingly beautiful region known for its stunning landscapes, high-altitude lakes, and unique Buddhist culture. Visitors can explore the mesmerizing Pangong Lake, Nubra Valley, and ancient monasteries that dot the region."
         },
         {
           "name": "Andaman-nicobar",
@@ -87,7 +90,8 @@
             "Day 5": ["Cellular Jail"],
             "Day 6": ["Ross Island"],
             "Day 7": ["Baratang Island"]
-          }
+          },
+          "description": "The Andaman and Nicobar Islands are a tropical paradise known for their crystal-clear waters, pristine beaches, and vibrant marine life. Visitors can indulge in water sports, explore the rich biodiversity, and relax on the stunning beaches."
         },
         {
           "name": "Shimla",
@@ -104,7 +108,8 @@
             "Day 5": ["The Ridge"],
             "Day 6": ["Summer Hill"],
             "Day 7": ["Tara Devi Temple"]
-          }
+          },
+          "description": "Shimla is a charming hill station known for its picturesque landscapes, lush greenery, and colonial architecture. Visitors can enjoy leisurely walks on Mall Road, visit the historic Jakhoo Temple, and explore the scenic Kufri region."
         },
         {
           "name": "Manali",
@@ -121,7 +126,8 @@
             "Day 5": ["Vashisht Hot Water Springs"],
             "Day 6": ["Old Manali"],
             "Day 7": ["Jogini Waterfall"]
-          }
+          },
+          "description": "Manali is a picturesque hill station nestled in the Himalayas, known for its stunning landscapes, adventure sports, and vibrant culture. Visitors can enjoy activities like paragliding, trekking, and exploring the charming villages in the region."
         },
         {
           "name": "Uttrakhand",
@@ -138,7 +144,8 @@
             "Day 5": ["Mussoorie"],
             "Day 6": ["Auli"],
             "Day 7": ["Badrinath"]
-          }
+          },
+          "description": "Uttrakhand is a beautiful state in the Himalayas, known for its stunning landscapes, adventure sports, and spiritual sites. Visitors can enjoy activities like trekking, rafting, and exploring the serene hill stations of Nainital and Mussoorie."
         },
         {
           "name": "Delhi",
@@ -155,7 +162,8 @@
             "Day 5": ["Humayun's Tomb"],
             "Day 6": ["Chandni Chowk"],
             "Day 7": ["Rashtrapati Bhavan"]
-          }
+          },
+          "description": "Delhi, the capital city of India, is a vibrant metropolis known for its rich history, diverse culture, and bustling markets. Visitors can explore iconic landmarks like the Red Fort, Qutub Minar, and India Gate, as well as experience the city's vibrant street food scene."
         },
         {
           "name": "Goa",
@@ -172,7 +180,8 @@
             "Day 5": ["Fort Aguada"],
             "Day 6": ["Calangute Beach"],
             "Day 7": ["Baga Beach"]
-          }
+          },
+          "description": "Goa, a tropical paradise on the west coast of India, is famous for its stunning beaches, vibrant nightlife, and rich Portuguese heritage. Visitors can enjoy beach parties, water sports, and explore the charming churches and forts that dot the coastline."
         },
         {
           "name": "Kashmir",
@@ -189,7 +198,8 @@
             "Day 5": ["Pahalgam"],
             "Day 6": ["Mughal Gardens"],
             "Day 7": ["Betaab Valley"]
-          }
+          },
+          "description": "Kashmir, often referred to as 'Paradise on Earth', is known for its breathtaking landscapes, serene lakes, and lush valleys. Visitors can enjoy houseboat rides on Dal Lake, explore the beautiful Mughal Gardens, and experience the stunning beauty of Gulmarg and Pahalgam."
         },
         {
           "name": "Kolkata",
@@ -206,7 +216,8 @@
             "Day 5": ["Eden Gardens"],
             "Day 6": ["Birla Planetarium"],
             "Day 7": ["Science City"]
-          }
+          },
+          "description": "Kolkata, the cultural capital of India, is a city of rich history, art, and literature. Visitors can explore iconic landmarks like the Victoria Memorial, Howrah Bridge, and Indian Museum, as well as experience the vibrant street food scene and cultural festivals."
         },
         {
           "name": "Mumbai",
@@ -223,7 +234,8 @@
             "Day 5": ["Haji Ali Dargah"],
             "Day 6": ["Siddhivinayak Temple"],
             "Day 7": ["Juhu Beach"]
-          }
+          },
+          "description": "Mumbai, the financial capital of India, is a bustling metropolis known for its vibrant culture, Bollywood film industry, and iconic landmarks. Visitors can explore the Gateway of India, Marine Drive, and Elephanta Caves, as well as experience the city's diverse culinary scene and nightlife."
         },
         {
           "name": "Bangalore",
@@ -240,7 +252,8 @@
             "Day 5": ["ISKCON Temple"],
             "Day 6": ["Commercial Street"],
             "Day 7": ["Wonderla"]
-          }
+          },
+          "description": "Bangalore, the IT capital of India, is a city known for its pleasant climate, lush gardens, and vibrant nightlife. Visitors can explore the beautiful Lalbagh Botanical Garden, Bangalore Palace, and Cubbon Park, as well as enjoy shopping at Commercial Street and thrilling rides at Wonderla amusement park."
         },
         {
           "name": "Chennai",
@@ -257,7 +270,8 @@
             "Day 5": ["Guindy National Park"],
             "Day 6": ["Valluvar Kottam"],
             "Day 7": ["Elliot's Beach"]
-          }
+          },
+          "description": "Chennai, the cultural capital of India, is a city known for its rich heritage, classical music, and dance forms. Visitors can enjoy the beautiful Marina Beach, explore historic temples like Kapaleeshwarar Temple, and experience the vibrant culture through traditional performances and festivals."
         }
       ]
     },
