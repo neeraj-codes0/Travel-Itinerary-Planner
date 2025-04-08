@@ -13,6 +13,7 @@
   /*Body*/
   body {
     font-family: Arial, sans-serif;
+    background-color: #ffffff;
   }
   /*Welcome*/
   #welcome {
@@ -65,6 +66,7 @@
 </style>
 
 <body>
+
   <header>
     <h1>TripTact</h1>
     <nav>
@@ -81,7 +83,10 @@
       <p>Planning your travels with an itinerary planner can transform your trip into a smooth and enjoyable experience.<br> These tools act as your personal travel assistant, helping you organize every detail—like destinations, activities, accommodations, and transport options—all in one convenient place. <br>
         Whether you're into exploring bustling cities, relaxing on tropical beaches, or chasing adventure in the wild, itinerary planners can help you customize and optimize your journey.<br> They even allow you to manage time efficiently so you don’t miss out on any must-see spots.<br>
         Are you looking to plan a specific trip?<br> I'd be thrilled to help you get started! Where are you thinking of going? 🗺️✨<br>and get a day-wise itinerary and packing checklist.</p>
-      <button onclick="document.getElementById('india-abroad').scrollIntoView({ behavior: 'smooth' });">Explore Now</button>
+      <div style="display: flex; gap: 30px; justify-content: center;">
+        <button onclick="document.getElementById('india-abroad').scrollIntoView({ behavior: 'smooth' });">Explore Now</button>
+        <button onclick="document.getElementById('pictures').scrollIntoView({ behavior: 'smooth' });">Gallery</button>
+      </div>
   </div>
     
   <main>  
@@ -172,13 +177,14 @@
       <h2>Destination Details</h2>
       <div id="destination-details-content">
       </div>
-      <button id ="2" style="display: none;" onclick="generateDayWiseItinerary()">Generate Day-wise Itinerary</button>
+      <button id ="2" style="display: none;" onclick="generateDayWiseItinerary(); document.getElementById('itinerary').scrollIntoView({ behavior: 'smooth' });">Generate Day-wise Itinerary</button>
     </div>
 
     <div id="itinerary">
       <h2>Your Itinerary</h2>
       <div id="itinerary-content">
       </div>
+      <button id ="3" style="display: none;" onclick="displayLocationInfo(); document.getElementsByClassName('location-info').scrollIntoView({behavior: 'smooth'});">Explore Location</button>
     </div>  
 
     <div id="packing-checklist">
@@ -198,7 +204,7 @@
   </main>
 
   <div class="location-data">
-    <h2>All about your selected destination</h2>
+    <h2>Location Details</h2>
   </div>
 
 </body>  

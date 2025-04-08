@@ -18,7 +18,8 @@
             "Day 5": ["Itmad-ud-Daula"],
             "Day 6": ["Akbar's Tomb"],
             "Day 7": ["Jama Masjid"]
-          }
+          },
+          "description":"Abc"
         },
         {
           "name": "Jaipur",

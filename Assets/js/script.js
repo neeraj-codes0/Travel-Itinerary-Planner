@@ -82,14 +82,13 @@ async function loadDestinationDetails() {
             <p>Country: ${countryName}</p>
             <p>Activities: ${destination.activities.join(', ')}</p>
             <p>Weather: ${destination.weather}</p>
-            <a href="${destination.map}" target="_blank">View Map</a>
+            <button><a href="${destination.map}" target="_blank">View in Google Maps</a></button>
         `;
     } catch (error) {
         detailsContainer.innerHTML = '<p>Error fetching destination details.</p>';
     }
     // Show generate itinerary button after loading details
     document.getElementById('2').style.display = 'block';
-
 }
 
 // Generate day-wise itinerary for the selected location based on trip duration
@@ -162,4 +161,49 @@ async function generateDayWiseItinerary() {
     } catch (error) {
         itineraryContainer.innerHTML = '<p>Error fetching destination details.</p>';
     }
+    // Show displayLocationInfo button after showing itineary details
+    document.getElementById('3').style.display = 'block';
 }
+
+// Ensure the function is properly linked to the button
+async function displayLocationInfo() {
+    const dropdown = document.getElementById('destination-dropdown');
+    const selectedDestination = dropdown.value;
+    const locationInfoContainer = document.querySelector('.location-info');
+
+    if (selectedDestination === 'none') {
+        locationInfoContainer.innerHTML = '<p>Please select a destination.</p>';
+        return;
+    }
+
+    try {
+        const response = await fetch('Data/destinations.json');
+        const data = await response.json();
+        let destination,countryName;
+        for (const country of data.countries) {
+            destination = country.destinations.find(dest => dest.name.toLowerCase().replace(/ /g, '-') === selectedDestination);
+            if (destination){
+                countryName = country.name;
+                break;
+        }
+    }
+
+        if (!destination) {
+            locationInfoContainer.innerHTML = '<p>Destination details not found.</p>';
+            return;
+        }
+
+        const imagePath = `images/${selectedDestination}.jpg`;
+        locationInfoContainer.innerHTML = `
+            <h3>All about ${destination.name}</h3>
+            <img src="${imagePath}" alt="${destination.name}" class="location-image" />
+            <p>${destination.description || 'No description available.'}</p>
+        `;
+    } catch (error) {
+        locationInfoContainer.innerHTML = '<p>Error fetching location details.</p>';
+    }
+    // Show the location explore button
+    document.getElementById('3').style.display = 'block';
+}
+
+
